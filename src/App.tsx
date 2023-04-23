@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
-import { Secure } from './Secure.js';
+import { Secure } from './Secure';
 
 export default function App() {
   return (
