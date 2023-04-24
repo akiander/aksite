@@ -10,7 +10,7 @@ function Secure() {
      <Authenticator>
        {({ signOut, user }) => (
          <main>
-           <h1>Hello {user?.username}</h1>
+           <div>You are logged in as {user?.username}</div>
            <button onClick={signOut}>Sign out</button>
          </main>
        )}

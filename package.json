@@ -6,6 +6,7 @@
     "@aws-amplify/ui-react": "^4.6.0",
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
+    "@mui/icons-material": "^5.11.16",
     "@mui/material": "latest",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
