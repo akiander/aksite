@@ -1,11 +1,12 @@
 
 import { Auth } from 'aws-amplify';
+import './App.css'
 import AutorenewIcon from '@mui/icons-material/Autorenew';
 import Link from '@mui/material/Link';
 import React, { useState } from 'react'
 import { Routes, Route, Outlet } from "react-router-dom";
 import { Secure } from './Secure';
-import './App.css'
+import { useTheme } from '@mui/material/styles';
 
 export default function App() {
   return (
@@ -46,27 +47,36 @@ function Layout() {
   }
   // checkAuth(); // find out why this is called so often
 
+  const theme = useTheme()
+  console.log('theme', theme)
+  console.log('main', theme.palette.primary.main)
+
   return (
     <div className="layout-container">
-    <header className="layout-header">
-    <Link href='/'>
-      <div className="logo-box">
-       
-        <AutorenewIcon/>
-        <span>Site</span>
-        
-      </div>
+    <header className="layout-header" 
+      style={{ "backgroundColor": `${theme.palette.primary.main}`,
+      "color": `${theme.palette.primary.contrastText}` }}>
+      <Link href='/' color={theme.palette.primary.contrastText}>
+        <div className="logo-box">
+          <AutorenewIcon fontSize='large' />
+        </div>
       </Link> 
+      <div>
+        <h4>Aaron Kiander </h4>
+      </div>
     </header>
     
     <main className="layout-main">
-    	<div className="layout-sidebar">
+    	<div className="layout-sidebar"
+      
+      style={{ "backgroundColor": `${theme.palette.primary.light }`,
+      "color": `${theme.palette.secondary.contrastText}` }}> 
 
       {/* A "layout route" is a good place to put markup you want to
           share across all the pages on your site, like navigation. */}
 
-          <Link href="/">Home </Link>
-          <Link href="/about">About </Link>
+          <Link href="/" color="#fff">Home </Link>
+          <Link href="/about" color="#fff">About </Link>
           
 
       </div>
@@ -79,7 +89,9 @@ function Layout() {
       </div>
       
     </main>
-    <footer className="layout-footer">
+    <footer className="layout-footer"
+    style={{ "backgroundColor": `${theme.palette.secondary.light}`, 
+    "color": `${theme.palette.secondary.contrastText}` }}> 
     <span className="layout-title">Footer</span>
   </footer>
   </div>
