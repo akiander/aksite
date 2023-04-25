@@ -90,7 +90,7 @@ function Layout() {
       
     </main>
     <footer className="layout-footer"
-    style={{ "backgroundColor": `${theme.palette.secondary.light}`, 
+    style={{ "backgroundColor": `${theme.palette.grey[300]}`,   
     "color": `${theme.palette.secondary.contrastText}` }}> 
     <span className="layout-title">Footer</span>
   </footer>
