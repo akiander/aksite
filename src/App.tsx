@@ -18,6 +18,7 @@ import { Secure } from './Secure';
 import Toolbar from '@mui/material/Toolbar';
 import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
+import { useNavigate } from "react-router-dom";
 import { useTheme } from '@mui/material/styles';
 
 const pages = ['Home','About'];
@@ -48,6 +49,8 @@ export default function App() {
 
 function Layout() {
 
+  const navigate = useNavigate();
+
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
   const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
 
@@ -59,8 +62,10 @@ function Layout() {
     setAnchorElUser(event.currentTarget);
   }
 
-  const handleCloseNavMenu = () => {
+  const handleCloseNavMenu = (args:any) => {
     setAnchorElNav(null);
+    const page: string = args.target.id;
+    navigate(`/${page === 'Home'? '' : page}`); 
   }
   
   const handleCloseUserMenu = () => {
@@ -142,8 +147,8 @@ function Layout() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Link href={`/${page === 'Home'? '' : page}`}>{page}</Link>
-                </MenuItem>
+                  <Typography id={page} textAlign="center">{page}</Typography>
+              </MenuItem>
               ))}
             </Menu>
           </Box>
@@ -170,6 +175,7 @@ function Layout() {
             {pages.map((page) => (
               <Button
                 key={page}
+                id={page} 
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
