@@ -1,12 +1,27 @@
 
-import { Auth } from 'aws-amplify';
 import './App.css'
+import AppBar from '@mui/material/AppBar';
+import { Auth } from 'aws-amplify';
 import AutorenewIcon from '@mui/icons-material/Autorenew';
+import Avatar from '@mui/material/Avatar';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Container from '@mui/material/Container';
+import IconButton from '@mui/material/IconButton';
 import Link from '@mui/material/Link';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem'
+import MenuIcon from '@mui/icons-material/Menu';
 import React, { useState } from 'react'
 import { Routes, Route, Outlet } from "react-router-dom";
 import { Secure } from './Secure';
+import Toolbar from '@mui/material/Toolbar';
+import Tooltip from '@mui/material/Tooltip';
+import Typography from '@mui/material/Typography';
 import { useTheme } from '@mui/material/styles';
+
+const pages = ['Home','About'];
+const settings = ['Profile', 'Logout'];
 
 export default function App() {
   return (
@@ -33,6 +48,26 @@ export default function App() {
 
 function Layout() {
 
+  const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
+  const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
+
+  const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
+    setAnchorElNav(event.currentTarget);
+  }
+
+  const handleOpenUserMenu = (event: React.MouseEvent<HTMLElement>) => {
+    setAnchorElUser(event.currentTarget);
+  }
+
+  const handleCloseNavMenu = () => {
+    setAnchorElNav(null);
+  }
+  
+  const handleCloseUserMenu = () => {
+    setAnchorElUser(null);
+  }
+
+  // Detect of user is logged in or not
   const [username, setUsername] = useState('anon');
 
   const checkAuth = async () => {
@@ -53,33 +88,130 @@ function Layout() {
 
   return (
     <div className="layout-container">
-    <header className="layout-header" 
-      style={{ "backgroundColor": `${theme.palette.primary.main}`,
-      "color": `${theme.palette.primary.contrastText}` }}>
-      <Link href='/' color={theme.palette.primary.contrastText}>
-        <div className="logo-box">
-          <AutorenewIcon fontSize='large' />
-        </div>
-      </Link> 
-      <div>
-        <h4>Aaron Kiander </h4>
-      </div>
-    </header>
+    
+    <AppBar position="static">
+      <Container maxWidth="xl">
+        <Toolbar disableGutters>
+          <AutorenewIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          <Typography
+            variant="h6"
+            noWrap
+            component="a"
+            href="/"
+            sx={{
+              mr: 2,
+              display: { xs: 'none', md: 'flex' },
+              fontFamily: 'monospace',
+              fontWeight: 700,
+              letterSpacing: '.3rem',
+              color: 'inherit',
+              textDecoration: 'none',
+            }}
+          >
+            Aaron's Site
+          </Typography>
+
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+            <IconButton
+              size="large"
+              aria-label="account of current user"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              onClick={handleOpenNavMenu}
+              color="inherit"
+            >
+              <MenuIcon />
+            </IconButton>
+            <Menu
+              id="menu-appbar"
+              anchorEl={anchorElNav}
+              anchorOrigin={{
+                vertical: 'bottom',
+                horizontal: 'left',
+              }}
+              keepMounted
+              transformOrigin={{
+                vertical: 'top',
+                horizontal: 'left',
+              }}
+              open={Boolean(anchorElNav)}
+              onClose={handleCloseNavMenu}
+              sx={{
+                display: { xs: 'block', md: 'none' },
+              }}
+            >
+              {pages.map((page) => (
+                <MenuItem key={page} onClick={handleCloseNavMenu}>
+                  <Link href={`/${page === 'Home'? '' : page}`}>{page}</Link>
+                </MenuItem>
+              ))}
+            </Menu>
+          </Box>
+          <AutorenewIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+          <Typography
+            variant="h5"
+            noWrap
+            component="a"
+            href=""
+            sx={{
+              mr: 2,
+              display: { xs: 'flex', md: 'none' },
+              flexGrow: 1,
+              fontFamily: 'monospace',
+              fontWeight: 700,
+              letterSpacing: '.3rem',
+              color: 'inherit',
+              textDecoration: 'none',
+            }}
+          >
+            Aaron's Site
+          </Typography>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+            {pages.map((page) => (
+              <Button
+                key={page}
+                onClick={handleCloseNavMenu}
+                sx={{ my: 2, color: 'white', display: 'block' }}
+              >
+                {page}
+              </Button>
+            ))}
+          </Box>
+
+          <Box sx={{ flexGrow: 0 }}>
+            <Tooltip title="Open settings">
+              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+              </IconButton>
+            </Tooltip>
+            <Menu
+              sx={{ mt: '45px' }}
+              id="menu-appbar"
+              anchorEl={anchorElUser}
+              anchorOrigin={{
+                vertical: 'top',
+                horizontal: 'right',
+              }}
+              keepMounted
+              transformOrigin={{
+                vertical: 'top',
+                horizontal: 'right',
+              }}
+              open={Boolean(anchorElUser)}
+              onClose={handleCloseUserMenu}
+            >
+              {settings.map((setting) => (
+                <MenuItem key={setting} onClick={handleCloseUserMenu}>
+                  <Typography textAlign="center">{setting}</Typography>
+                </MenuItem>
+              ))}
+            </Menu>
+          </Box>
+        </Toolbar>
+      </Container>
+    </AppBar>
     
     <main className="layout-main">
-    	<div className="layout-sidebar"
-      
-      style={{ "backgroundColor": `${theme.palette.primary.light }`,
-      "color": `${theme.palette.secondary.contrastText}` }}> 
-
-      {/* A "layout route" is a good place to put markup you want to
-          share across all the pages on your site, like navigation. */}
-
-          <Link href="/" color="#fff">Home </Link>
-          <Link href="/about" color="#fff">About </Link>
-          
-
-      </div>
       <div className="layout-content">
 
           {/* An <Outlet> renders whatever child route is currently active,
