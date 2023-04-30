@@ -8,10 +8,10 @@ Amplify.configure(config);
 
 function Secure() {
   return(
-     <Authenticator >
+     <Authenticator>
        {({ signOut, user }) => (
          <main>
-           <div>Welcome, {user?.username}</div>
+           <div>You are logged in as {user?.username}</div>
          </main>
        )}
      </Authenticator>

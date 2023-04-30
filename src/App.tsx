@@ -19,6 +19,7 @@ import { Secure } from './Secure';
 import Toolbar from '@mui/material/Toolbar';
 import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
+import { useAuthenticator } from '@aws-amplify/ui-react';
 import { useNavigate } from "react-router-dom";
 import { useTheme } from '@mui/material/styles';
 
@@ -27,6 +28,10 @@ let loggedInSettings = ['Profile', 'Logout'];
 let loggedOutSettings = ['Login'];
 
 export default function App() {
+
+  // Detect if user is logged in or not
+  const { user, signOut } = useAuthenticator((context) => [context.user]);
+  
   return (
     <div>
       {/*      
@@ -34,7 +39,7 @@ export default function App() {
           parent route paths, and nested route elements render inside
           parent route elements. See the note about <Outlet> below. */}
       <Routes>
-        <Route path="/" element={<Layout /* username={username} loggedIn={loggedIn} */ />}>
+        <Route path="/" element={<Layout username={user?.username || 'anon'} loggedIn={!!user?.username} />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="secure" element={<Secure />} />
@@ -49,30 +54,14 @@ export default function App() {
   );
 }
 
-function Layout() { // (props: LayoutProps) {
+interface LayoutProps {
+  username: string,
+  loggedIn: boolean,
+}
 
-  // Detect if user is logged in or not
-  const [username, setUsername] = useState('anon');
-  const [loggedIn, setLoggedIn] = useState(false);
+function Layout(props: LayoutProps) {
 
-  useEffect(() => {
-    async function getAuthenticatedUser() {
-      try {
-        const user = await Auth.currentAuthenticatedUser()
-        console.log('user login', user?.username)
-        setUsername(user?.username)
-        setLoggedIn(user?.username !== 'anon')
-      }
-      catch (error) {
-        /* When the user is not authenticated, we'll land here */
-        console.warn(error);
-        setUsername('anon')
-        setLoggedIn(false)
-      }
-    }
-
-    getAuthenticatedUser()
-  }, [])
+  console.log('layout props', props)
 
   const navigate = useNavigate();
 
@@ -213,7 +202,7 @@ function Layout() { // (props: LayoutProps) {
             <Box sx={{ flexGrow: 0 }}>
               <Tooltip title="Open settings">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                  <Avatar alt={username} src="/static/images/avatar/2.jpg" />
+                  <Avatar alt={props.username} src="/static/images/avatar/2.jpg" />
                 </IconButton>
               </Tooltip>
               <Menu
@@ -232,7 +221,7 @@ function Layout() { // (props: LayoutProps) {
                 open={Boolean(anchorElUser)}
                 onClose={handleCloseUserMenu}
               >
-                {((username !== 'anon') ? loggedInSettings : loggedOutSettings).map((setting) => (
+                {((props.loggedIn) ? loggedInSettings : loggedOutSettings).map((setting) => (
                   <MenuItem key={setting} onClick={handleCloseUserMenu}>
                     <Typography id={setting} textAlign="center">{setting}</Typography>
                   </MenuItem>

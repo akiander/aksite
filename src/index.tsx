@@ -1,4 +1,5 @@
 import { Amplify } from 'aws-amplify';
+import { Authenticator } from '@aws-amplify/ui-react';
 import App from './App';
 import config from './aws-exports';
 import { BrowserRouter } from "react-router-dom";
@@ -18,7 +19,9 @@ root.render(
       {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
       <CssBaseline />
       <BrowserRouter>
-        <App />
+        <Authenticator.Provider>
+          <App />
+        </Authenticator.Provider>
       </BrowserRouter>
     </ThemeProvider>
   </React.StrictMode>,
