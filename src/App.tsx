@@ -61,8 +61,6 @@ interface LayoutProps {
 
 function Layout(props: LayoutProps) {
 
-  console.log('layout props', props)
-
   const navigate = useNavigate();
 
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
