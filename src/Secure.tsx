@@ -3,15 +3,15 @@ import { Authenticator } from "@aws-amplify/ui-react";
 import '@aws-amplify/ui-react/styles.css';
 import { Amplify } from 'aws-amplify';
 import config from './aws-exports';
+
 Amplify.configure(config);
 
 function Secure() {
   return(
-     <Authenticator>
+     <Authenticator >
        {({ signOut, user }) => (
          <main>
-           <div>You are logged in as {user?.username}</div>
-           <button onClick={signOut}>Sign out</button>
+           <div>Welcome, {user?.username}</div>
          </main>
        )}
      </Authenticator>

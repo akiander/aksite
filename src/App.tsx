@@ -1,4 +1,3 @@
-
 import './App.css'
 import AppBar from '@mui/material/AppBar';
 import { Auth } from 'aws-amplify';
@@ -12,7 +11,7 @@ import Link from '@mui/material/Link';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem'
 import MenuIcon from '@mui/icons-material/Menu';
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Routes, Route, Outlet } from "react-router-dom";
 import { Secure } from './Secure';
 import Toolbar from '@mui/material/Toolbar';
@@ -21,33 +20,57 @@ import Typography from '@mui/material/Typography';
 import { useNavigate } from "react-router-dom";
 import { useTheme } from '@mui/material/styles';
 
-const pages = ['Home','About'];
-const settings = ['Profile', 'Logout'];
+const pages = ['Home', 'About'];
+let loggedInSettings = ['Profile', 'Logout'];
+let loggedOutSettings = ['Login'];
 
 export default function App() {
   return (
     <div>
-        {/*      
+      {/*      
           Routes nest inside one another. Nested route paths build upon
           parent route paths, and nested route elements render inside
           parent route elements. See the note about <Outlet> below. */}
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="secure" element={ <Secure />} />
+      <Routes>
+        <Route path="/" element={<Layout /* username={username} loggedIn={loggedIn} */ />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="secure" element={<Secure />} />
 
-            {/* Using path="*"" means "match anything", so this route
+          {/* Using path="*"" means "match anything", so this route
                   acts like a catch-all for URLs that we don't have explicit
                   routes for. */}
-            <Route path="*" element={<NoMatch />} />
-          </Route>
-        </Routes>
+          <Route path="*" element={<NoMatch />} />
+        </Route>
+      </Routes>
     </div>
   );
 }
 
-function Layout() {
+function Layout() { // (props: LayoutProps) {
+
+  // Detect if user is logged in or not
+  const [username, setUsername] = useState('anon');
+  const [loggedIn, setLoggedIn] = useState(false);
+
+  useEffect(() => {
+    async function getAuthenticatedUser() {
+      try {
+        const user = await Auth.currentAuthenticatedUser()
+        console.log('user login', user?.username)
+        setUsername(user?.username)
+        setLoggedIn(user?.username !== 'anon')
+      }
+      catch (error) {
+        /* When the user is not authenticated, we'll land here */
+        console.warn(error);
+        setUsername('anon')
+        setLoggedIn(false)
+      }
+    }
+
+    getAuthenticatedUser()
+  }, [])
 
   const navigate = useNavigate();
 
@@ -62,178 +85,175 @@ function Layout() {
     setAnchorElUser(event.currentTarget);
   }
 
-  const handleCloseNavMenu = (args:any) => {
+  const handleCloseNavMenu = (args: any) => {
     setAnchorElNav(null);
     const page: string = args.target.id;
-    navigate(`/${page === 'Home'? '' : page}`); 
+    navigate(`/${page === 'Home' ? '' : page}`);
   }
-  
-  const handleCloseUserMenu = () => {
+
+  const handleCloseUserMenu = (args: any) => {
     setAnchorElUser(null);
-  }
-
-  // Detect of user is logged in or not
-  const [username, setUsername] = useState('anon');
-
-  const checkAuth = async () => {
-    try {
-      const user = await Auth.currentAuthenticatedUser()
-      console.log('user',user)
-      setUsername(user?.username)
+    const page: string = args.target.id;
+    switch (page) {
+      case 'Profile':
+      case 'Login':
+        navigate('/secure')
+        break;
+      case 'Logout':
+        Auth.signOut()
+        break;
+      default:
+        console.error('Unrecognzied Page', page)
+        break;
     }
-    catch (error) {
-      /* When the user is not authenticated, we'll land here */ 
-    }
   }
-  // checkAuth(); // find out why this is called so often
 
   const theme = useTheme()
-  console.log('theme', theme)
-  console.log('main', theme.palette.primary.main)
 
   return (
     <div className="layout-container">
-    
-    <AppBar position="static">
-      <Container maxWidth="xl">
-        <Toolbar disableGutters>
-          <AutorenewIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="/"
-            sx={{
-              mr: 2,
-              display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            Aaron's Site
-          </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-            <IconButton
-              size="large"
-              aria-label="account of current user"
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
-              onClick={handleOpenNavMenu}
-              color="inherit"
-            >
-              <MenuIcon />
-            </IconButton>
-            <Menu
-              id="menu-appbar"
-              anchorEl={anchorElNav}
-              anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'left',
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'left',
-              }}
-              open={Boolean(anchorElNav)}
-              onClose={handleCloseNavMenu}
+      <AppBar position="static">
+        <Container maxWidth="xl">
+          <Toolbar disableGutters>
+            <AutorenewIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+            <Typography
+              variant="h6"
+              noWrap
+              component="a"
+              href="/"
               sx={{
-                display: { xs: 'block', md: 'none' },
+                mr: 2,
+                display: { xs: 'none', md: 'flex' },
+                fontFamily: 'monospace',
+                fontWeight: 700,
+                letterSpacing: '.3rem',
+                color: 'inherit',
+                textDecoration: 'none',
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography id={page} textAlign="center">{page}</Typography>
-              </MenuItem>
-              ))}
-            </Menu>
-          </Box>
-          <AutorenewIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href=""
-            sx={{
-              mr: 2,
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            Aaron's Site
-          </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
-              <Button
-                key={page}
-                id={page} 
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                {page}
-              </Button>
-            ))}
-          </Box>
+              Aaron's Site
+            </Typography>
 
-          <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+            <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+              <IconButton
+                size="large"
+                aria-label="account of current user"
+                aria-controls="menu-appbar"
+                aria-haspopup="true"
+                onClick={handleOpenNavMenu}
+                color="inherit"
+              >
+                <MenuIcon />
               </IconButton>
-            </Tooltip>
-            <Menu
-              sx={{ mt: '45px' }}
-              id="menu-appbar"
-              anchorEl={anchorElUser}
-              anchorOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
+              <Menu
+                id="menu-appbar"
+                anchorEl={anchorElNav}
+                anchorOrigin={{
+                  vertical: 'bottom',
+                  horizontal: 'left',
+                }}
+                keepMounted
+                transformOrigin={{
+                  vertical: 'top',
+                  horizontal: 'left',
+                }}
+                open={Boolean(anchorElNav)}
+                onClose={handleCloseNavMenu}
+                sx={{
+                  display: { xs: 'block', md: 'none' },
+                }}
+              >
+                {pages.map((page) => (
+                  <MenuItem key={page} onClick={handleCloseNavMenu}>
+                    <Typography id={page} textAlign="center">{page}</Typography>
+                  </MenuItem>
+                ))}
+              </Menu>
+            </Box>
+            <AutorenewIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+            <Typography
+              variant="h5"
+              noWrap
+              component="a"
+              href=""
+              sx={{
+                mr: 2,
+                display: { xs: 'flex', md: 'none' },
+                flexGrow: 1,
+                fontFamily: 'monospace',
+                fontWeight: 700,
+                letterSpacing: '.3rem',
+                color: 'inherit',
+                textDecoration: 'none',
               }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              open={Boolean(anchorElUser)}
-              onClose={handleCloseUserMenu}
             >
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
-                </MenuItem>
+              Aaron's Site
+            </Typography>
+            <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+              {pages.map((page) => (
+                <Button
+                  key={page}
+                  id={page}
+                  onClick={handleCloseNavMenu}
+                  sx={{ my: 2, color: 'white', display: 'block' }}
+                >
+                  {page}
+                </Button>
               ))}
-            </Menu>
-          </Box>
-        </Toolbar>
-      </Container>
-    </AppBar>
-    
-    <main className="layout-main">
-      <div className="layout-content">
+            </Box>
+
+            <Box sx={{ flexGrow: 0 }}>
+              <Tooltip title="Open settings">
+                <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+                  <Avatar alt={username} src="/static/images/avatar/2.jpg" />
+                </IconButton>
+              </Tooltip>
+              <Menu
+                sx={{ mt: '45px' }}
+                id="menu-appbar"
+                anchorEl={anchorElUser}
+                anchorOrigin={{
+                  vertical: 'top',
+                  horizontal: 'right',
+                }}
+                keepMounted
+                transformOrigin={{
+                  vertical: 'top',
+                  horizontal: 'right',
+                }}
+                open={Boolean(anchorElUser)}
+                onClose={handleCloseUserMenu}
+              >
+                {(loggedIn ? loggedInSettings : loggedOutSettings).map((setting) => (
+                  <MenuItem key={setting} onClick={handleCloseUserMenu}>
+                    <Typography id={setting} textAlign="center">{setting}</Typography>
+                  </MenuItem>
+                ))}
+              </Menu>
+            </Box>
+          </Toolbar>
+        </Container>
+      </AppBar>
+
+      <main className="layout-main">
+        <div className="layout-content">
 
           {/* An <Outlet> renders whatever child route is currently active,
           so you can think about this <Outlet> as a placeholder for
           the child routes we defined above. */}
-        <Outlet />
-      </div>
-      
-    </main>
-    <footer className="layout-footer"
-    style={{ "backgroundColor": `${theme.palette.grey[300]}`,   
-    "color": `${theme.palette.secondary.contrastText}` }}> 
-    <span className="layout-title">Footer</span>
-  </footer>
-  </div>
-   
+          <Outlet />
+        </div>
+
+      </main>
+      <footer className="layout-footer"
+        style={{
+          "backgroundColor": `${theme.palette.grey[300]}`,
+          "color": `${theme.palette.secondary.contrastText}`
+        }}>
+        <span className="layout-title">Footer</span>
+      </footer>
+    </div>
   );
 }
 
@@ -242,7 +262,7 @@ function Home() {
     <div>
       <span>Home</span>
     </div>
-  ); 
+  );
 }
 
 function About() {
@@ -251,7 +271,7 @@ function About() {
       <span>About</span>
     </div>
   );
-} 
+}
 
 function NoMatch() {
   return (
