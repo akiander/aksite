@@ -5,7 +5,7 @@ import Layout from './Layout'
 import NoMatch from './pages/NoMatch';
 import React, { useEffect, useState } from 'react'
 import { Routes, Route, Outlet } from "react-router-dom";
-import { Secure } from './Secure';
+import { Secure } from './pages/Secure';
 import { useAuthenticator } from '@aws-amplify/ui-react';
 
 export default function App() {
