@@ -1,3 +1,4 @@
+import About from './pages/About';
 import './App.css'
 import AppBar from '@mui/material/AppBar';
 import { Auth } from 'aws-amplify';
@@ -6,11 +7,12 @@ import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
+import Home from './pages/Home';
 import IconButton from '@mui/material/IconButton';
-import Link from '@mui/material/Link';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem'
 import MenuIcon from '@mui/icons-material/Menu';
+import NoMatch from './pages/NoMatch';
 import React, { useEffect, useState } from 'react'
 import { Routes, Route, Outlet } from "react-router-dom";
 import { Secure } from './Secure';
@@ -93,13 +95,18 @@ function Layout() { // (props: LayoutProps) {
 
   const handleCloseUserMenu = (args: any) => {
     setAnchorElUser(null);
-    const page: string = args.target.id;
+    const page: string = args.target.id.toLowerCase();
     switch (page) {
-      case 'Profile':
-      case 'Login':
+      case null:
+      case '':
+        navigate('/')
+        break;
+      case 'profile':
+      case 'login':
+      case 'secure':
         navigate('/secure')
         break;
-      case 'Logout':
+      case 'logout':
         Auth.signOut()
         break;
       default:
@@ -225,7 +232,7 @@ function Layout() { // (props: LayoutProps) {
                 open={Boolean(anchorElUser)}
                 onClose={handleCloseUserMenu}
               >
-                {(loggedIn ? loggedInSettings : loggedOutSettings).map((setting) => (
+                {((username !== 'anon') ? loggedInSettings : loggedOutSettings).map((setting) => (
                   <MenuItem key={setting} onClick={handleCloseUserMenu}>
                     <Typography id={setting} textAlign="center">{setting}</Typography>
                   </MenuItem>
@@ -253,33 +260,6 @@ function Layout() { // (props: LayoutProps) {
         }}>
         <span className="layout-title">Footer</span>
       </footer>
-    </div>
-  );
-}
-
-function Home() {
-  return (
-    <div>
-      <span>Home</span>
-    </div>
-  );
-}
-
-function About() {
-  return (
-    <div>
-      <span>About</span>
-    </div>
-  );
-}
-
-function NoMatch() {
-  return (
-    <div>
-      <span>Page not found</span>
-      <p>
-        <Link href="/">Return to home</Link>
-      </p>
     </div>
   );
 }
