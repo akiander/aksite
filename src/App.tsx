@@ -3,6 +3,7 @@ import './App.css'
 import Home from './pages/Home';
 import Layout from './Layout'
 import NoMatch from './pages/NoMatch';
+import Quotes from './pages/Quotes';
 import React, { useEffect, useState } from 'react'
 import { Routes, Route, Outlet } from "react-router-dom";
 import { Secure } from './pages/Secure';
@@ -25,6 +26,7 @@ export default function App() {
             loggedIn={!!user?.username} />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="quotes" element={<Quotes />} />
           <Route path="secure" element={<Secure />} />
 
           {/* Using path="*"" means "match anything", so this route

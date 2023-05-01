@@ -1,0 +1,2356 @@
+[
+    {
+        "Id": "205db262-5273-45f3-9ae2-b02a649850af",
+        "Text": "A smoooth sea never made a skilled mariner.",
+        "Author": "English Proverb",
+        "Categories": [
+            "Challenge"
+        ],
+        "CategoriesAsString": "Challenge"
+    },
+    {
+        "Id": "58c482a7-a0dc-4678-9b5b-b96567413725",
+        "Text": "The silence between the notes are as important as the notes themselves.",
+        "Author": "W.A. Mozart",
+        "Categories": [
+            "Balance"
+        ],
+        "CategoriesAsString": "Balance"
+    },
+    {
+        "Id": "95d0e8a4-8d5b-4758-b6bb-c2bb50034a14",
+        "Text": "You curl your hair and paint your face. Not I: I am curled by the wind, painted by the sun.",
+        "Author": "Julia de Burgos",
+        "Categories": [
+            "Nature"
+        ],
+        "CategoriesAsString": "Nature"
+    },
+    {
+        "Id": "b363f5ac-6db1-42b7-9f81-df3924870194",
+        "Text": "Be a light, not a judge.  Be a model, not a critic.  Be part of the solution, not part of the problem.",
+        "Author": "Stephen R Covey",
+        "Categories": [
+            "Leadership"
+        ],
+        "CategoriesAsString": "Leadership"
+    },
+    {
+        "Id": "70fd1e04-6052-4a2b-8c82-3b4f837ce1c9",
+        "Text": "You must be the change you wish to see in the world ",
+        "Author": "Mohandas Karamchand Gandhi",
+        "Categories": [
+            "Leadership"
+        ],
+        "CategoriesAsString": "Leadership"
+    },
+    {
+        "Id": "8561f6a4-8fc1-4cf5-aa0b-52474b026504",
+        "Text": "If you think the problem is out there, that very thought is the problem.",
+        "Author": "Stephen R Covey",
+        "Categories": [
+            "Blame"
+        ],
+        "CategoriesAsString": "Blame"
+    },
+    {
+        "Id": "93d53775-0903-49c3-b71a-a411d42a9f03",
+        "Text": "You gain every strength, courage and confidence by every experience in which you really stop to look fear in the face... You must do the thing you think you cannot do.",
+        "Author": "Eleanor Roosevelt",
+        "Categories": [
+            "Fear"
+        ],
+        "CategoriesAsString": "Fear"
+    },
+    {
+        "Id": "4aa8a3da-142f-4ed2-99f5-247a7a068260",
+        "Text": "The life which is unexamined is not worth living.",
+        "Author": "Plato",
+        "Categories": [
+            "Self-Awareness"
+        ],
+        "CategoriesAsString": "Self-Awareness"
+    },
+    {
+        "Id": "33a1ef40-38e9-4094-9b82-317ba0a4a8d4",
+        "Text": "It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change.",
+        "Author": "Charles Darwin",
+        "Categories": [
+            "Change"
+        ],
+        "CategoriesAsString": "Change"
+    },
+    {
+        "Id": "6eb737d3-1222-4e6b-a66b-263c81028208",
+        "Text": "Experience is a hard teacher because she gives the test first, the lessons afterwards.",
+        "Author": "Vernon Sanders Law",
+        "Categories": [
+            "Experience"
+        ],
+        "CategoriesAsString": "Experience"
+    },
+    {
+        "Id": "db73a9c0-e492-4d2f-94b6-ccaecca4c25e",
+        "Text": "To do two things at once is to do neither.",
+        "Author": "None",
+        "Categories": [
+            "Focus"
+        ],
+        "CategoriesAsString": "Focus"
+    },
+    {
+        "Id": "c6c7f68c-0104-4bb4-acd5-d9c1386f37dc",
+        "Text": "The impossible: what nobody can do until somebody does.",
+        "Author": "None",
+        "Categories": [
+            "Hope"
+        ],
+        "CategoriesAsString": "Hope"
+    },
+    {
+        "Id": "6ae8a8db-a46a-44c2-86b9-ea52849b9feb",
+        "Text": "A ship in a harbor is safe, but that is not what ships are for.",
+        "Author": "William Shedd",
+        "Categories": [
+            "Risk"
+        ],
+        "CategoriesAsString": "Risk"
+    },
+    {
+        "Id": "4c920bcb-5098-4d44-b2b7-ef373557a72d",
+        "Text": "I may not agree with what you say, but I will defend to the death your right to say it.",
+        "Author": "Voltaire",
+        "Categories": [
+            "Integrity"
+        ],
+        "CategoriesAsString": "Integrity"
+    },
+    {
+        "Id": "f0ffe6b7-dbd3-416c-b5d2-4a1a92e032ec",
+        "Text": "You can buy a person�s hand but not their heart. You can buy their back but not their mind. These have to be volunteered. That�s why you treat employees like volunteers. Same with customers.",
+        "Author": "Stephen R Covey",
+        "Categories": [
+            "Leadership"
+        ],
+        "CategoriesAsString": "Leadership"
+    },
+    {
+        "Id": "65c98046-66f8-4a83-9070-bcf99fcd19ac",
+        "Text": "The tough-minded respect difference. Their goal is a world made safe for differences.",
+        "Author": "Ruth Fulton Benedict",
+        "Categories": [
+            "Difference"
+        ],
+        "CategoriesAsString": "Difference"
+    },
+    {
+        "Id": "d2c11495-a8be-4924-9757-0ed74486bf27",
+        "Text": "If a man hasn\u0027t discovered something that he will die for, he isn\u0027t fit to live.",
+        "Author": "Dr. Martin Luther King, Jr.",
+        "Categories": [
+            "Purpose"
+        ],
+        "CategoriesAsString": "Purpose"
+    },
+    {
+        "Id": "fbcc6633-45bf-4edd-93f2-cbf264810784",
+        "Text": "A child educated only at school is an uneducated child.",
+        "Author": "George Santayana",
+        "Categories": [
+            "Education"
+        ],
+        "CategoriesAsString": "Education"
+    },
+    {
+        "Id": "12cb7c8f-c9ad-4bd4-8f1e-f6fde0a8e2c9",
+        "Text": "You can\u0027t hold a man down without staying down with him.",
+        "Author": "Booker T. Washington",
+        "Categories": [
+            "Integrity"
+        ],
+        "CategoriesAsString": "Integrity"
+    },
+    {
+        "Id": "62b5377f-ca6d-42cf-ab1d-fcf87042f9da",
+        "Text": "In a river mist, if another boat knocks against yours, you might yell at the other fellow to stay clear. But if you notice then, that it\u0027s an empty boat, adrift with nobody aboard, you stop yelling.",
+        "Author": "Chuang Tzu",
+        "Categories": [
+            "Existence"
+        ],
+        "CategoriesAsString": "Existence"
+    },
+    {
+        "Id": "5f91ce47-d318-4ed3-a877-2e59bb1b3957",
+        "Text": "Great occasions do not make heroes or cowards; they simply unveil them to the eyes of men.",
+        "Author": "Bishop Westcott",
+        "Categories": [
+            "Character"
+        ],
+        "CategoriesAsString": "Character"
+    },
+    {
+        "Id": "30a33245-323b-4a35-8515-efe09adb0158",
+        "Text": "When a man does not know what harbor he is making for, no wind is the right wind.",
+        "Author": "Seneca",
+        "Categories": [
+            "Purpose",
+            "Direction"
+        ],
+        "CategoriesAsString": "Purpose, Direction"
+    },
+    {
+        "Id": "6dde7da5-e7e9-4c24-8b8f-1bf545ad4ded",
+        "Text": "True heroism is remarkably sober, very undramatic. It is not the urge to surpass all others at whatever cost, but the urge to serve others at whatever cost.",
+        "Author": "Arthur Ashe",
+        "Categories": [
+            "Character",
+            "Service"
+        ],
+        "CategoriesAsString": "Character, Service"
+    },
+    {
+        "Id": "c750e131-4bf5-4764-ad00-5e513299f81d",
+        "Text": "The ultimate measure of a person is not where they stand in moments of comfort and convenience, but where they stand at times of challenge and controversy.",
+        "Author": "Dr. Martin Luther King, Jr.",
+        "Categories": [
+            "Character"
+        ],
+        "CategoriesAsString": "Character"
+    },
+    {
+        "Id": "a1a75455-db43-40fa-b05f-3a2dc912973d",
+        "Text": "Our greatest glory is not in never falling, but in rising every time we fall.",
+        "Author": "Confucius",
+        "Categories": [
+            "Persistence"
+        ],
+        "CategoriesAsString": "Persistence"
+    },
+    {
+        "Id": "6cdf43fc-6a15-4e84-a0a4-6c73b525977c",
+        "Text": "Money is in some respects life\u0027s fire: it is a very excellent servant, but a terrible master.",
+        "Author": "P.T. Barnum",
+        "Categories": [
+            "Money"
+        ],
+        "CategoriesAsString": "Money"
+    },
+    {
+        "Id": "fdea9759-0032-4ea6-ab9d-842494d71ee2",
+        "Text": "If you\u0027re not failing every now and again, it\u0027s a sign you\u0027re not doing anything very innovative.",
+        "Author": "Woody Allen",
+        "Categories": [
+            "Persistence"
+        ],
+        "CategoriesAsString": "Persistence"
+    },
+    {
+        "Id": "e6ba565f-a3da-4b98-b480-abc8f40ef644",
+        "Text": "No snowflake in an avalanche ever feels responsible.",
+        "Author": "Stanislaus Lezczynski",
+        "Categories": [
+            "Blame"
+        ],
+        "CategoriesAsString": "Blame"
+    },
+    {
+        "Id": "e25b1bda-a62b-4076-8b70-cd24017824f2",
+        "Text": "Enlightened trial and error outperforms the planning of flawless intellects.",
+        "Author": "David Kelly",
+        "Categories": [
+            "Action"
+        ],
+        "CategoriesAsString": "Action"
+    },
+    {
+        "Id": "b105f982-7a7c-4342-8099-e63f54716e59",
+        "Text": "Time is a great teacher, but unfortunately it kills all its pupils.",
+        "Author": "Hector Berlioz",
+        "Categories": [
+            "Education"
+        ],
+        "CategoriesAsString": "Education"
+    },
+    {
+        "Id": "b9c180fd-a6d2-4780-aef0-a92ceeb06f67",
+        "Text": "You\u0027ll learn more about a road by traveling it than by consulting all the maps in the world.",
+        "Author": "None",
+        "Categories": [
+            "Experience"
+        ],
+        "CategoriesAsString": "Experience"
+    },
+    {
+        "Id": "cd5ed2bf-6515-4bab-abdd-cb3cb3d95dc4",
+        "Text": "In the confrontation between the stream and the rock, the stream always wins � not through strength, but through perseverance.",
+        "Author": "None",
+        "Categories": [
+            "Persistence"
+        ],
+        "CategoriesAsString": "Persistence"
+    },
+    {
+        "Id": "17a86d98-ef5a-44b8-a49b-6bfdae41ac9f",
+        "Text": "In time of drastic change, it is the learners who inherit the future. Those who have finished learning find themselves equipped to live in a world that no longer exists.",
+        "Author": "Eric Hoffer",
+        "Categories": [
+            "Growth"
+        ],
+        "CategoriesAsString": "Growth"
+    },
+    {
+        "Id": "a3c77fe6-a27f-4eca-9a46-093e5b3a6f40",
+        "Text": "We all should plant some trees we\u0027ll never sit under.",
+        "Author": "None",
+        "Categories": [
+            "Service"
+        ],
+        "CategoriesAsString": "Service"
+    },
+    {
+        "Id": "3f05da56-6acc-4a59-b4d3-dad48fa7f6c2",
+        "Text": "If you love something, let it go.  If it comes back to you, it�s yours.",
+        "Author": "None",
+        "Categories": [
+            "Love"
+        ],
+        "CategoriesAsString": "Love"
+    },
+    {
+        "Id": "6cdaa6ad-8718-43bf-9ff7-0e74cbc353ac",
+        "Text": "It\u0027s not the size of the dog in the fight, it\u0027s the size of the fight in the dog.",
+        "Author": "None",
+        "Categories": [
+            "Passion"
+        ],
+        "CategoriesAsString": "Passion"
+    },
+    {
+        "Id": "f08badb4-cd57-4955-9bcf-717e2f95cc2b",
+        "Text": "To forget yourself is to see everything else.",
+        "Author": "None",
+        "Categories": [
+            "Empathy"
+        ],
+        "CategoriesAsString": "Empathy"
+    },
+    {
+        "Id": "a3c8cd55-fabd-4052-9b45-446c995898ee",
+        "Text": "You can\u0027t cross a chasm in two jumps. ",
+        "Author": "None",
+        "Categories": [
+            "Risk"
+        ],
+        "CategoriesAsString": "Risk"
+    },
+    {
+        "Id": "5c02df7b-b9f3-42f1-8517-164853152d3c",
+        "Text": "To try and not succeed is better than to never have tried at all.",
+        "Author": "None",
+        "Categories": [
+            "Persistence"
+        ],
+        "CategoriesAsString": "Persistence"
+    },
+    {
+        "Id": "3c2f6e8f-3fd8-45f5-ba1e-f8eb18c32716",
+        "Text": "You can chop down a tree, but the roots will still be there.",
+        "Author": "None",
+        "Categories": [
+            "Connection"
+        ],
+        "CategoriesAsString": "Connection"
+    },
+    {
+        "Id": "fa546307-ed14-4e3c-926e-5e07a2fc7728",
+        "Text": "Treat people as if they were what they ought to be and you help them to become what they are capable of being.",
+        "Author": "Johann Wolfgang Von Goethe",
+        "Categories": [
+            "Respect"
+        ],
+        "CategoriesAsString": "Respect"
+    },
+    {
+        "Id": "56a9a6e7-fbdb-4089-9f64-6b62465c30d2",
+        "Text": "When you fear something, learn as much about it as you can.  Knowledge conquers fear.",
+        "Author": "None",
+        "Categories": [
+            "Fear"
+        ],
+        "CategoriesAsString": "Fear"
+    },
+    {
+        "Id": "2c836e8a-b64b-4006-8966-c4e7cb6e5746",
+        "Text": "Love doesn\u0027t always make things easier, just worth it.",
+        "Author": "None",
+        "Categories": [
+            "Love"
+        ],
+        "CategoriesAsString": "Love"
+    },
+    {
+        "Id": "4f1a214e-1f69-4205-adc3-74570ca43b9a",
+        "Text": "It\u0027s not your job to get people to like you;  it\u0027s your job to like people.",
+        "Author": "None",
+        "Categories": [
+            "Love"
+        ],
+        "CategoriesAsString": "Love"
+    },
+    {
+        "Id": "1e17220e-872e-4e4a-9fdc-f4c889a1735f",
+        "Text": "Believe in miracles, but don\u0027t depend on them.",
+        "Author": "None",
+        "Categories": [
+            "Faith"
+        ],
+        "CategoriesAsString": "Faith"
+    },
+    {
+        "Id": "e9378923-65c1-4ce7-b4eb-ca6f13258fc8",
+        "Text": "Be willing to accept temporary inconvenience for permanent improvement.  ",
+        "Author": "None",
+        "Categories": [
+            "Discipline"
+        ],
+        "CategoriesAsString": "Discipline"
+    },
+    {
+        "Id": "75d0fe87-c145-414d-97dc-2fb2124e6799",
+        "Text": "Play as hard as you work.",
+        "Author": "None",
+        "Categories": [
+            "Balance"
+        ],
+        "CategoriesAsString": "Balance"
+    },
+    {
+        "Id": "d546dce7-49d5-4443-9173-23dd2d409e95",
+        "Text": "Don\u0027t expect different results from the same behavior.",
+        "Author": "None",
+        "Categories": [
+            "Change"
+        ],
+        "CategoriesAsString": "Change"
+    },
+    {
+        "Id": "acb52400-7dd4-4c12-97f2-a09cc06e7d6f",
+        "Text": "The beauty of empowering others is that your own power is not diminished in the process.",
+        "Author": "Barbara Colorose",
+        "Categories": [
+            "Contribution"
+        ],
+        "CategoriesAsString": "Contribution"
+    },
+    {
+        "Id": "7c28090d-6b50-47fb-b470-080cb5597d42",
+        "Text": "Never leave fun to find fun.",
+        "Author": "None",
+        "Categories": [
+            ""
+        ],
+        "CategoriesAsString": ""
+    },
+    {
+        "Id": "95b966c9-4b01-4d5e-87f0-0490afefa6fd",
+        "Text": "To laugh when others tease you is self-acceptance.",
+        "Author": "None",
+        "Categories": [
+            "Self-Respect"
+        ],
+        "CategoriesAsString": "Self-Respect"
+    },
+    {
+        "Id": "a69e4d7b-f6e2-468a-b2c3-866e91cb3f35",
+        "Text": "Challenges make you discover things about yourself that you never really knew. They\u0027re what make the instrument stretch-what makes you go beyond the norm.",
+        "Author": "David Boren",
+        "Categories": [
+            "Challenge"
+        ],
+        "CategoriesAsString": "Challenge"
+    },
+    {
+        "Id": "840d1582-f1f3-4e7e-8a05-d6540d3dc7f7",
+        "Text": "Show respect for convention, but remember that conventions were created first by unconventional people.",
+        "Author": "None",
+        "Categories": [
+            "Leadership"
+        ],
+        "CategoriesAsString": "Leadership"
+    },
+    {
+        "Id": "7b366847-6ba8-4687-a678-3d4e60320da0",
+        "Text": "In the end, the only people who fail are those who do not try.",
+        "Author": "None",
+        "Categories": [
+            "Persistence"
+        ],
+        "CategoriesAsString": "Persistence"
+    },
+    {
+        "Id": "e8959f02-dcff-4c6e-81f9-2f6f060e0452",
+        "Text": "We can\u0027t direct the wind but only adjust the sails.",
+        "Author": "None",
+        "Categories": [
+            "Purpose"
+        ],
+        "CategoriesAsString": "Purpose"
+    },
+    {
+        "Id": "d6019e3d-7f9c-4ac9-bf0a-151bf33e691c",
+        "Text": "Teamwork is the fuel that allows common people to achieve uncommon results.",
+        "Author": "None",
+        "Categories": [
+            "Teamwork"
+        ],
+        "CategoriesAsString": "Teamwork"
+    },
+    {
+        "Id": "eb91d6d0-157a-497f-94dc-4548bae02755",
+        "Text": "Some people say a decision has to marinate before you can make it. Sometimes that\u0027s true. But you\u0027ll never have all the information you need to make a decision. If you did, it would be a foregone conclusion.",
+        "Author": "David Mahoney",
+        "Categories": [
+            "Action"
+        ],
+        "CategoriesAsString": "Action"
+    },
+    {
+        "Id": "16702554-39ca-4140-8877-b5f458eb5428",
+        "Text": "A man is rich in proportion to the things he can do without.",
+        "Author": "Henry David Thoreau",
+        "Categories": [
+            "Materialism"
+        ],
+        "CategoriesAsString": "Materialism"
+    },
+    {
+        "Id": "6ef286de-9ed9-46fc-b7a9-f060bda54466",
+        "Text": "Good judgment comes from experience. Experience comes from bad judgment.",
+        "Author": "None",
+        "Categories": [
+            "Experience"
+        ],
+        "CategoriesAsString": "Experience"
+    },
+    {
+        "Id": "3a704ec6-adbe-48be-b751-52d8c6f15e0d",
+        "Text": "One who does not remember history is bound to live it through again.",
+        "Author": "George Santayana",
+        "Categories": [
+            "History"
+        ],
+        "CategoriesAsString": "History"
+    },
+    {
+        "Id": "df6d5357-d5ac-4a92-89f2-743920f357fb",
+        "Text": "Remember that everyone you meet is afraid of something, loves something and has lost something.",
+        "Author": "None",
+        "Categories": [
+            "Connection"
+        ],
+        "CategoriesAsString": "Connection"
+    },
+    {
+        "Id": "6e49a7dd-c351-406f-937e-4414c4c57eb2",
+        "Text": "It\u0027s alright to have butterflies in your stomach. Just get them to fly in formation.",
+        "Author": "Dr Rob Gilbert",
+        "Categories": [
+            "Courage"
+        ],
+        "CategoriesAsString": "Courage"
+    },
+    {
+        "Id": "379f8b60-4869-418e-8978-7c264d1bf4f1",
+        "Text": "Great organizations remember the four \u0027F\u0027s: Focused, Fast, Friendly and Flexible.",
+        "Author": "Stephen R. Covey",
+        "Categories": [
+            ""
+        ],
+        "CategoriesAsString": ""
+    },
+    {
+        "Id": "0cfd7866-1df3-4e50-8a1a-0aefd7d12628",
+        "Text": "Though we travel the world over to find the beautiful, we must carry it with us or we will find it not.",
+        "Author": "Ralph Waldo Emerson",
+        "Categories": [
+            "Happiness"
+        ],
+        "CategoriesAsString": "Happiness"
+    },
+    {
+        "Id": "be4810f5-6597-453b-ab03-e4b9662156b2",
+        "Text": "How to test for a organization that is driven by values and not procedures: Do something or ask for something that is outside the normal operating procedures and see what the response is.",
+        "Author": "Stephen R. Covey",
+        "Categories": [
+            "Purpose"
+        ],
+        "CategoriesAsString": "Purpose"
+    },
+    {
+        "Id": "2f47f1b6-f799-4cb1-9d43-439fd6c15aca",
+        "Text": "Let go of your attachment to being right, and suddenly your mind is more open. You\u0027re able to benefit from the unique viewpoints of others, without being crippled by your own judgment.",
+        "Author": "Ralph Marston",
+        "Categories": [
+            "Open-mindedness"
+        ],
+        "CategoriesAsString": "Open-mindedness"
+    },
+    {
+        "Id": "9cc2fd06-f1b4-4412-85cb-a1511ae6784c",
+        "Text": "Two may talk together under the same roof for many years, but never really meet.",
+        "Author": "Mary Catherwood",
+        "Categories": [
+            "Relationships"
+        ],
+        "CategoriesAsString": "Relationships"
+    },
+    {
+        "Id": "bbd27868-3488-433b-b31f-331e0252c6bc",
+        "Text": "May the road rise up to meet you. May the wind be at your back. May your mission in life feed your passion like no other.",
+        "Author": "Unknown",
+        "Categories": [
+            ""
+        ],
+        "CategoriesAsString": ""
+    },
+    {
+        "Id": "81034cd3-37e2-4324-9838-f210a577526d",
+        "Text": "Time is but a stream I go a-fishing in.  I drink at it;  but while I drink, I see the sandy bottom and detect how shallow it is.  Its thin current slides away, but eternity remains.",
+        "Author": "Henry David Thoreau",
+        "Categories": [
+            "Time"
+        ],
+        "CategoriesAsString": "Time"
+    },
+    {
+        "Id": "3f42ab3a-48fa-4944-aea1-0aa0bf4207f6",
+        "Text": "An honest man has hardly need to count more than ten fingers, or in extreme cases he may add his ten toes, and lump the rest.  Simplicity!  Simplicity!  Simplicity!  I say, let your affairs be two or three, and not a hundred or a thousand.",
+        "Author": "Henry David Thoreau",
+        "Categories": [
+            "Simplicity"
+        ],
+        "CategoriesAsString": "Simplicity"
+    },
+    {
+        "Id": "4275e63c-e013-4260-9e99-8ad087247e71",
+        "Text": "Concentration is the key to success in every undertaking.",
+        "Author": "None",
+        "Categories": [
+            "Focus"
+        ],
+        "CategoriesAsString": "Focus"
+    },
+    {
+        "Id": "3a95fdde-3200-4414-ac64-4d7f1bc45690",
+        "Text": "Integrity is not a 90 percent thing, not a 95 percent thing; either you have it or you don\u0027t.",
+        "Author": "Peter Scotese",
+        "Categories": [
+            "Integrity"
+        ],
+        "CategoriesAsString": "Integrity"
+    },
+    {
+        "Id": "b9a40cb7-69b4-433b-ae92-c432eb563b70",
+        "Text": "The most important single ingredient in the formula of success is knowing how to get along with people.",
+        "Author": "Theodore Roosevelt",
+        "Categories": [
+            "Interdependence"
+        ],
+        "CategoriesAsString": "Interdependence"
+    },
+    {
+        "Id": "0a75f9e8-da8c-45d2-abe0-184b5ca96be1",
+        "Text": "I believe that anyone can conquer fear by doing the things that they fear to do.",
+        "Author": "Eleanor Roosevelt",
+        "Categories": [
+            "Fear"
+        ],
+        "CategoriesAsString": "Fear"
+    },
+    {
+        "Id": "f85434c0-7d78-4f1a-86b2-70618b2150e2",
+        "Text": "Destiny is not a matter of chance, it is a matter of choice;  it is not a thing to be waited for.  It is a thing to be achieved.",
+        "Author": "William Jennings Bryan",
+        "Categories": [
+            "Choice"
+        ],
+        "CategoriesAsString": "Choice"
+    },
+    {
+        "Id": "2e03861f-1b6f-4322-9ae7-8ccf9ff1447a",
+        "Text": "Be generous in victory, calmly accepting in defeat.  Calm acceptance is itself a form of victory.",
+        "Author": "None",
+        "Categories": [
+            "Choice"
+        ],
+        "CategoriesAsString": "Choice"
+    },
+    {
+        "Id": "b248efea-29fd-4a3f-b89e-a784ab935c93",
+        "Text": "Far away there in the sunshine are my highest aspirations.  I may not reach them, but I can look up and see their beauty, believe in them, and try to follow where they lead.",
+        "Author": "Louisa May Alcott",
+        "Categories": [
+            "Purpose"
+        ],
+        "CategoriesAsString": "Purpose"
+    },
+    {
+        "Id": "577e871c-9687-4968-a7be-c67aea690375",
+        "Text": "Character cannot be developed in ease and quiet.  Only through experience of trial and suffering can the soul be strengthened, ambition inspired and success achieved.",
+        "Author": "Helen Keller",
+        "Categories": [
+            "Character"
+        ],
+        "CategoriesAsString": "Character"
+    },
+    {
+        "Id": "7d67711a-d175-4f9d-b613-391f2b960ebd",
+        "Text": "The ability to deal with people is as purchasable a commodity as sugar or coffee and I will gladly pay more for that ability than for any other under the sun.",
+        "Author": "John D. Rockefeller",
+        "Categories": [
+            "Interdependence"
+        ],
+        "CategoriesAsString": "Interdependence"
+    },
+    {
+        "Id": "2734a977-5077-4839-aa91-e2f235479c8a",
+        "Text": "To live is so startling it leaves little time for anything else.",
+        "Author": "Emily Dickinson",
+        "Categories": [
+            ""
+        ],
+        "CategoriesAsString": ""
+    },
+    {
+        "Id": "69c9409b-2b77-4889-be22-61af2d5d4ae3",
+        "Text": "The trick is what one emphasizes. We either make ourselves miserable or we make ourselves strong.  The amount of work is the same.",
+        "Author": "Carlos Castaneda",
+        "Categories": [
+            "Choice"
+        ],
+        "CategoriesAsString": "Choice"
+    },
+    {
+        "Id": "238e3057-8c6c-452b-bd5c-51cab117f5ad",
+        "Text": "Forget the quick and easy cures that everyone will throw at you.  There are none.",
+        "Author": "Louis Schmier",
+        "Categories": [
+            "Quick-Fix"
+        ],
+        "CategoriesAsString": "Quick-Fix"
+    },
+    {
+        "Id": "50596fef-5d5b-4160-bada-ca245b4ae0bb",
+        "Text": "If you want to make enemies, try to change something.",
+        "Author": "Woodrow Wilson",
+        "Categories": [
+            "Change"
+        ],
+        "CategoriesAsString": "Change"
+    },
+    {
+        "Id": "909d02b5-fa90-4a79-b93c-3717630fc0f6",
+        "Text": "When an old person dies, a library burns down.",
+        "Author": "None",
+        "Categories": [
+            "Death"
+        ],
+        "CategoriesAsString": "Death"
+    },
+    {
+        "Id": "3eed4a8a-6eec-4ad3-aa90-b94e1c15e43e",
+        "Text": "People who say that they don\u0027t care what people think are usually desperate to have people think that they don\u0027t care what people think.",
+        "Author": "George Carlin",
+        "Categories": [
+            "Humor"
+        ],
+        "CategoriesAsString": "Humor"
+    },
+    {
+        "Id": "b7c01c5f-3cef-45e0-a205-49ada44be7aa",
+        "Text": "If I have seen farther than others, it is because I was standing on the shoulders of giants.",
+        "Author": "Isaac Newton",
+        "Categories": [
+            ""
+        ],
+        "CategoriesAsString": ""
+    },
+    {
+        "Id": "346b59b4-7223-4a7a-a8be-d08c166db1a3",
+        "Text": "You will never find time for anything. If you want time, you must make it.",
+        "Author": "Charles Buxton",
+        "Categories": [
+            "Choice"
+        ],
+        "CategoriesAsString": "Choice"
+    },
+    {
+        "Id": "89a65833-59f5-42c5-9fbf-e01aa19bc177",
+        "Text": "I have never seen a monument erected to a pessimist.",
+        "Author": "Paul Harvey",
+        "Categories": [
+            "Pessimism"
+        ],
+        "CategoriesAsString": "Pessimism"
+    },
+    {
+        "Id": "2d3f3cf1-2c38-47e1-977e-d0450b301093",
+        "Text": "Life is 10% what happens to you and 90% how you react to it.",
+        "Author": "None",
+        "Categories": [
+            "Choice"
+        ],
+        "CategoriesAsString": "Choice"
+    },
+    {
+        "Id": "f32b072e-a16b-4be8-af85-d6b1ba753bd8",
+        "Text": "You cannot talk about apple juice to someone who has not tasted it. No matter what you say, the other person will not have the true experience of apple juice. The only way is to drink it.",
+        "Author": "None",
+        "Categories": [
+            "Experience"
+        ],
+        "CategoriesAsString": "Experience"
+    },
+    {
+        "Id": "a889b444-57b7-484c-91f0-96dea9e8af7c",
+        "Text": "To \u0027love our enemy\u0027 is impossible, because the moment we understand them, we feel compassion toward that person, and they are no longer our enemy.",
+        "Author": "None",
+        "Categories": [
+            "Empathy"
+        ],
+        "CategoriesAsString": "Empathy"
+    },
+    {
+        "Id": "619e17c7-ab54-4df6-b124-4f63a4451c87",
+        "Text": "To reach the port of heaven, we must sail sometimes with the wind and sometimes against it - but we must sail, and not drift, nor lie at anchor.",
+        "Author": "Oliver Wendell Holmes",
+        "Categories": [
+            "Choice"
+        ],
+        "CategoriesAsString": "Choice"
+    },
+    {
+        "Id": "6f5433ad-ca17-45d9-8433-464b84a3406c",
+        "Text": "There\u0027s no such thing as a failure who keeps on trying.  Coasting to the bottom is the only disgrace. ",
+        "Author": "Blues Traveler",
+        "Categories": [
+            "Persistence"
+        ],
+        "CategoriesAsString": "Persistence"
+    },
+    {
+        "Id": "11e59b23-6406-4bdd-8633-d9a97185bdf3",
+        "Text": "It\u0027s essential to distinguish between events that are really beyond your control and events you caused yourself.",
+        "Author": "Barbara Sher",
+        "Categories": [
+            "Influence"
+        ],
+        "CategoriesAsString": "Influence"
+    },
+    {
+        "Id": "1d02f07f-0dab-495c-8bea-9372a17772d1",
+        "Text": "It is something to be able to paint a particular picture, or to carve a statue, and so to make a few objects beautiful; but is far more glorious to carve and paint the very atmosphere and medium through which we look. ",
+        "Author": "Henry David Thoreau",
+        "Categories": [
+            ""
+        ],
+        "CategoriesAsString": ""
+    },
+    {
+        "Id": "418cfd5a-f24e-4e96-9985-b6b26aa34406",
+        "Text": "To accomplish great things, we must not only act, but also dream; not only plan, but also believe.",
+        "Author": "Anatole France",
+        "Categories": [
+            "Vision"
+        ],
+        "CategoriesAsString": "Vision"
+    },
+    {
+        "Id": "0b676d2c-0625-41ad-a575-1a6aeea5e152",
+        "Text": "What you can do, or dream you can, begin it:  Boldness has genius, power and magic in it ",
+        "Author": "Johann Wolfgang von Goethe",
+        "Categories": [
+            "Action"
+        ],
+        "CategoriesAsString": "Action"
+    },
+    {
+        "Id": "9a9b0c13-d2a8-49f4-ac2e-9c6608367366",
+        "Text": "Life engenders life. Energy creates energy. It is by spending oneself that one becomes rich.",
+        "Author": "Sarah Bernhardt",
+        "Categories": [
+            "Service",
+            "Action"
+        ],
+        "CategoriesAsString": "Service, Action"
+    },
+    {
+        "Id": "8d2391c3-0502-4e92-ad4e-bb9bb4811390",
+        "Text": "At the end of your life, you will never regret not having passed one more test, not winning one more verdict or not closing one more deal. You will regret time not spent with a husband, a friend, a child or a parent. ",
+        "Author": "Barbara Bush",
+        "Categories": [
+            "Balance"
+        ],
+        "CategoriesAsString": "Balance"
+    },
+    {
+        "Id": "7ec19619-efdf-4945-85c1-527624fea0bb",
+        "Text": "We don\u0027t see things as they are, we see them as we are.",
+        "Author": "Anais Nin",
+        "Categories": [
+            "Paradigm"
+        ],
+        "CategoriesAsString": "Paradigm"
+    },
+    {
+        "Id": "50c05503-10dd-40ea-9ba8-89e80bb9fced",
+        "Text": "If you understand what you\u0027re doing, you\u0027re not learning anything.",
+        "Author": "None",
+        "Categories": [
+            "Growth"
+        ],
+        "CategoriesAsString": "Growth"
+    },
+    {
+        "Id": "04232b5b-2742-4498-a544-bb376088ba8a",
+        "Text": "Success is on the far side of failure.",
+        "Author": "TJ Watson",
+        "Categories": [
+            "Persistence"
+        ],
+        "CategoriesAsString": "Persistence"
+    },
+    {
+        "Id": "b972ab9f-173d-441c-947c-e302ba955dfa",
+        "Text": "We must not cease from exploration and the end of all our exploring will be to arrive where we began and to know the place for the first time.",
+        "Author": "T.S. Eliot",
+        "Categories": [
+            "Growth"
+        ],
+        "CategoriesAsString": "Growth"
+    },
+    {
+        "Id": "9c434834-51fc-44ae-bc69-11455b3f3490",
+        "Text": "Lord give me the courage to change the things which can and ought to be changed, the serenity to accept the things which cannot be changed, and the wisdom to know the difference.",
+        "Author": "AA Prayer",
+        "Categories": [
+            "Wisdom"
+        ],
+        "CategoriesAsString": "Wisdom"
+    },
+    {
+        "Id": "538e49af-e697-4dfd-84ca-b0f072df6ed1",
+        "Text": "The only people who will succeed in the world are the learners.",
+        "Author": "None",
+        "Categories": [
+            "Growth"
+        ],
+        "CategoriesAsString": "Growth"
+    },
+    {
+        "Id": "f88bd901-6752-4bee-8309-0c7a342d0762",
+        "Text": "You have to water the flowers that you want to grow.",
+        "Author": "Stephen R Covey",
+        "Categories": [
+            "Giving"
+        ],
+        "CategoriesAsString": "Giving"
+    },
+    {
+        "Id": "c535672a-668e-48f9-816d-e0b6bbc27e55",
+        "Text": "In the midst of winter I finally learned that there was in me an invincible summer.",
+        "Author": "Albert Camus",
+        "Categories": [
+            "Inner Strength",
+            "Self-Awareness",
+            "Seasons"
+        ],
+        "CategoriesAsString": "Inner Strength, Self-Awareness, Seasons"
+    },
+    {
+        "Id": "c102b0af-9656-441c-8235-8ad23e264df0",
+        "Text": "I don\u0027t know the key to success, but the key to failure is trying to please everybody.",
+        "Author": "Bill Cosby",
+        "Categories": [
+            "Success"
+        ],
+        "CategoriesAsString": "Success"
+    },
+    {
+        "Id": "66beff0b-7559-48b9-936a-e7fbf38318dd",
+        "Text": "Poverty stole your golden shoes, but it didn\u0027t steal your laughter.",
+        "Author": "Jewel",
+        "Categories": [
+            "Joy"
+        ],
+        "CategoriesAsString": "Joy"
+    },
+    {
+        "Id": "4c96bbb7-fd8c-4346-9843-7baab85e2767",
+        "Text": "That which we persist in doing becomes easier-not that the nature of the task has changed, but our ability to do it has increased.",
+        "Author": "Ralph Waldo Emerson",
+        "Categories": [
+            "Persistence"
+        ],
+        "CategoriesAsString": "Persistence"
+    },
+    {
+        "Id": "b03f6809-4d5b-4016-993c-ba8b4a547ac9",
+        "Text": "If you want to be a teacher, you have to fall in love each day.",
+        "Author": "Louis Schmier",
+        "Categories": [
+            "Education",
+            "Love"
+        ],
+        "CategoriesAsString": "Education, Love"
+    },
+    {
+        "Id": "35d75fd4-2d6d-4ad4-826b-1fa601479c26",
+        "Text": "When you\u0027re tasting, just taste.  When you teach, just teach.",
+        "Author": "Louis Schmier",
+        "Categories": [
+            "Focus",
+            "Appreciation"
+        ],
+        "CategoriesAsString": "Focus, Appreciation"
+    },
+    {
+        "Id": "17aa72d9-e512-4caf-832e-31d06ba67c8f",
+        "Text": "If you wait until you can do everything for everybody, instead of something for somebody, you\u0027ll end up not doing anything for anybody.",
+        "Author": "Malcolm Bane",
+        "Categories": [
+            "Action",
+            "Imperfection"
+        ],
+        "CategoriesAsString": "Action, Imperfection"
+    },
+    {
+        "Id": "ca822898-7914-4f5b-b07d-69076b443fe6",
+        "Text": "While we are free to choose our actions, we are not free to choose the consequences of our actions.",
+        "Author": "Stephen R Covey",
+        "Categories": [
+            "Action"
+        ],
+        "CategoriesAsString": "Action"
+    },
+    {
+        "Id": "c473fbf4-5582-4191-9fd0-807be892d2de",
+        "Text": "Nonviolence is not to be used ever as the shield of the coward. It is the weapon of the brave.",
+        "Author": "Gandhi",
+        "Categories": [
+            "Nonviolence",
+            "Bravery"
+        ],
+        "CategoriesAsString": "Nonviolence, Bravery"
+    },
+    {
+        "Id": "f09c49e8-e634-44c7-8d01-2c19d92b2378",
+        "Text": "Where there is an open mind, there will always be a frontier.",
+        "Author": "Charles F Kettering",
+        "Categories": [
+            "Open-mindedness"
+        ],
+        "CategoriesAsString": "Open-mindedness"
+    },
+    {
+        "Id": "65304503-247d-466b-a172-0a85fd468e9e",
+        "Text": "The range of what we think and do is limited by what we fail to notice. And because we fail to notice that we fail to notice, there is little we can do to change until we notice how failing to notice shapes our thoughts and deeds.",
+        "Author": "R.D. Lang",
+        "Categories": [
+            "Self-Awareness"
+        ],
+        "CategoriesAsString": "Self-Awareness"
+    },
+    {
+        "Id": "a1305f13-2c4c-4cd8-bced-93a4795d3709",
+        "Text": "Let yourself be influenced before trying to influence others.",
+        "Author": "None",
+        "Categories": [
+            "Open-mindedness"
+        ],
+        "CategoriesAsString": "Open-mindedness"
+    },
+    {
+        "Id": "819ea506-f864-4a06-8fbd-5a183db58f7c",
+        "Text": "Be slow to judge and quick to understand.",
+        "Author": "None",
+        "Categories": [
+            "Empathy"
+        ],
+        "CategoriesAsString": "Empathy"
+    },
+    {
+        "Id": "18da991d-f6a0-4ae4-a8a8-c1f87ccf63d9",
+        "Text": "There are many good things you can do, but are they the best things to do?",
+        "Author": "None",
+        "Categories": [
+            "Excellence"
+        ],
+        "CategoriesAsString": "Excellence"
+    },
+    {
+        "Id": "675f6b78-c929-4fe4-a463-e186c1db6eed",
+        "Text": "Overlook what doesn�t matter.",
+        "Author": "None",
+        "Categories": [
+            ""
+        ],
+        "CategoriesAsString": ""
+    },
+    {
+        "Id": "29c032c5-1646-4b25-a7f4-ec796b7588cb",
+        "Text": "No one is useless in the world who lightens the burdens of another.",
+        "Author": "Charles Dickens",
+        "Categories": [
+            "Service"
+        ],
+        "CategoriesAsString": "Service"
+    },
+    {
+        "Id": "af9eb5f8-6606-43c7-8dc8-3b0551489b88",
+        "Text": "No pessimist ever discovered the secrets of stars or sailed to an uncharted land or opened a new heaven to the human spirit.",
+        "Author": "Helen Keller",
+        "Categories": [
+            "Optimism",
+            "Pessimism"
+        ],
+        "CategoriesAsString": "Optimism, Pessimism"
+    },
+    {
+        "Id": "d4acd03d-b308-4057-890c-2e5ae341c459",
+        "Text": "Diagnose before prescribing.",
+        "Author": "Stephen R Covey",
+        "Categories": [
+            "Awareness"
+        ],
+        "CategoriesAsString": "Awareness"
+    },
+    {
+        "Id": "5de224d1-4572-4b3f-ab67-a679fad6358b",
+        "Text": "He that answereth a matter before he heareth it, it is a folly and shame unto him.",
+        "Author": "Proverbs 18:13",
+        "Categories": [
+            "Awareness"
+        ],
+        "CategoriesAsString": "Awareness"
+    },
+    {
+        "Id": "1fdd9e9f-6c57-43c6-bec5-ff2496091901",
+        "Text": "Listen with your eyes, heart and mind as well as with your ears.",
+        "Author": "None",
+        "Categories": [
+            "Listening",
+            "Awareness"
+        ],
+        "CategoriesAsString": "Listening, Awareness"
+    },
+    {
+        "Id": "53a811d2-5dd1-46ec-aa7b-b42d6fb95f22",
+        "Text": "Strength lies in the differences, not in the similarities.",
+        "Author": "Stephen R Covey",
+        "Categories": [
+            "Diversity"
+        ],
+        "CategoriesAsString": "Diversity"
+    },
+    {
+        "Id": "3beccca8-5d12-4341-8e67-337eee6ee782",
+        "Text": "Between stimulus and response there is a space.",
+        "Author": "None",
+        "Categories": [
+            "Choice",
+            "Self-Control"
+        ],
+        "CategoriesAsString": "Choice, Self-Control"
+    },
+    {
+        "Id": "82b6eafa-6a9e-4364-8868-a52e70dd3971",
+        "Text": "If you are not working on your ideas each day, you\u0027re working on someone else\u0027s.",
+        "Author": "Marjorie Blanchard",
+        "Categories": [
+            "Purpose",
+            "Balance"
+        ],
+        "CategoriesAsString": "Purpose, Balance"
+    },
+    {
+        "Id": "5a7d4e71-943b-4e70-b2fe-333933d5b6a7",
+        "Text": "Shared joy is double joy and shared sorrow is half sorrow.",
+        "Author": "Swedish Proverb",
+        "Categories": [
+            "Interdependence",
+            "Sharing"
+        ],
+        "CategoriesAsString": "Interdependence, Sharing"
+    },
+    {
+        "Id": "122edcc8-36cc-463a-85bd-adab693d058d",
+        "Text": "It�s how you treat the one that reveals how you regard the ninety-nine, because everyone is ultimately a one.",
+        "Author": "Stephen R Covey",
+        "Categories": [
+            "Respect"
+        ],
+        "CategoriesAsString": "Respect"
+    },
+    {
+        "Id": "47323f58-fc3c-4402-92fc-f2def36c669d",
+        "Text": "One of the most important ways to manifest integrity is to be loyal to those who are not present. In doing so, we build the trust of those who are present.",
+        "Author": "Stephen R Covey",
+        "Categories": [
+            "Integrity"
+        ],
+        "CategoriesAsString": "Integrity"
+    },
+    {
+        "Id": "9d33b089-66e0-4fd3-b697-c7caeb1b3b5f",
+        "Text": "We didn\u0027t inherit the Earth from our parents. We\u0027re borrowing it from our children.",
+        "Author": "Chief Seattle",
+        "Categories": [
+            "Nature"
+        ],
+        "CategoriesAsString": "Nature"
+    },
+    {
+        "Id": "d2c12ee0-133a-4e9a-91b5-ba96bb4feaa4",
+        "Text": "All the world�s a stage and all the men and women merely players. They have their exits and their entrances; And one man in his time plays many parts...",
+        "Author": "As You Like It, Act II, Scene 7, Shakespeare",
+        "Categories": [
+            "Life",
+            "Transience"
+        ],
+        "CategoriesAsString": "Life, Transience"
+    },
+    {
+        "Id": "8c05301a-b4ef-4cf6-8dd0-db14f9cd5b2e",
+        "Text": "What is life? It is the flash of a firefly in the night. It is the breath of a buffalo in the winter time.  It is the little shadow which runs across the grass and loses itself in the sunset.",
+        "Author": "None",
+        "Categories": [
+            "Transience"
+        ],
+        "CategoriesAsString": "Transience"
+    },
+    {
+        "Id": "340d11e5-0043-4fa2-9bd7-26e348e1781b",
+        "Text": "Be careful what you dream because it might come true.",
+        "Author": "None",
+        "Categories": [
+            "Vision"
+        ],
+        "CategoriesAsString": "Vision"
+    },
+    {
+        "Id": "37230dfc-2eb0-440b-b8c8-0eeae5bc207b",
+        "Text": "You miss 100% of the shots you never take.",
+        "Author": "Wayne Gretzky",
+        "Categories": [
+            "Action"
+        ],
+        "CategoriesAsString": "Action"
+    },
+    {
+        "Id": "73e392b7-b7af-4777-98e7-c141cd22bb63",
+        "Text": "�Give �em an inch and they�ll take a mile� is a phrase which mostly describes the behavior of people who have hitherto been given only inches.",
+        "Author": "Alfie Kohn",
+        "Categories": [
+            "Trust"
+        ],
+        "CategoriesAsString": "Trust"
+    },
+    {
+        "Id": "511c1e6e-f95b-447f-ab23-95729e64199a",
+        "Text": "Live each season as it passes; breathe the air, drink the drink, taste the fruit, and resign yourself to the influences of each.",
+        "Author": "Henry David Thoreau",
+        "Categories": [
+            "Awareness"
+        ],
+        "CategoriesAsString": "Awareness"
+    },
+    {
+        "Id": "800b2e2d-7e6d-436b-82e9-7b6b2c3f2e3c",
+        "Text": "Two roads diverged in a wood and I -- I took the one less traveled by, and that has made all the difference.",
+        "Author": "Robert Frost",
+        "Categories": [
+            "Bravery",
+            "Boldness"
+        ],
+        "CategoriesAsString": "Bravery, Boldness"
+    },
+    {
+        "Id": "f5f0f37f-4e7f-4616-8ab2-9514bfdddb6f",
+        "Text": "Few of us can do great things but all of us can do small things with great love.",
+        "Author": "Mother Teresa",
+        "Categories": [
+            "Love",
+            "Service"
+        ],
+        "CategoriesAsString": "Love, Service"
+    },
+    {
+        "Id": "1282c0c6-8aaa-4fa9-9981-d435b9bee002",
+        "Text": "You can\u0027t have everything. Where would you put it?",
+        "Author": "Steven Wright",
+        "Categories": [
+            "Humor"
+        ],
+        "CategoriesAsString": "Humor"
+    },
+    {
+        "Id": "6ca1a1b8-612f-4ce3-805f-5caf73e8dc86",
+        "Text": "Your vision will become clear only when you can look into your own heart. Who looks outside, dreams; who looks inside, awakes.",
+        "Author": "Carl Jung",
+        "Categories": [
+            "Self-Awareness"
+        ],
+        "CategoriesAsString": "Self-Awareness"
+    },
+    {
+        "Id": "fee88802-43c1-4db6-8d47-5341b8c70605",
+        "Text": "People who cannot find time for recreation are obliged sooner or later to find time for illness.",
+        "Author": "John Wanamaker",
+        "Categories": [
+            "Balance"
+        ],
+        "CategoriesAsString": "Balance"
+    },
+    {
+        "Id": "4ea9e6c1-1623-4c81-81ee-bbd0cb7b3864",
+        "Text": "The greatest risk is the risk of riskless living.",
+        "Author": "Stephen R Covey",
+        "Categories": [
+            "Risk",
+            "Bravery"
+        ],
+        "CategoriesAsString": "Risk, Bravery"
+    },
+    {
+        "Id": "952076e7-9f84-4023-b8f6-d02afb0fc995",
+        "Text": "When written in Chinese, the word crisis is composed of two characters. One represents danger and the other represents opportunity.",
+        "Author": "John F Kennedy",
+        "Categories": [
+            "Crisis"
+        ],
+        "CategoriesAsString": "Crisis"
+    },
+    {
+        "Id": "8d872719-bd75-46b1-b095-454a2f6021af",
+        "Text": "The most wasted day of all is that in which we have not laughed.",
+        "Author": "Sebastien-Roch Nicolas Chamfort",
+        "Categories": [
+            "Balance"
+        ],
+        "CategoriesAsString": "Balance"
+    },
+    {
+        "Id": "75e94ad2-16fd-475d-9960-6ab21050fd61",
+        "Text": "To handle yourself, use your head; To handle others, use your heart.",
+        "Author": "None",
+        "Categories": [
+            "Empathy"
+        ],
+        "CategoriesAsString": "Empathy"
+    },
+    {
+        "Id": "d9b2320d-50b5-4cd0-8c3e-c0027b2d8769",
+        "Text": "If someone betrays you once, it is his fault. If he betrays you twice, it is your fault.",
+        "Author": "None",
+        "Categories": [
+            "Trust",
+            "Responsibility"
+        ],
+        "CategoriesAsString": "Trust, Responsibility"
+    },
+    {
+        "Id": "4edad5db-342d-4dc2-aec1-d4a85381567d",
+        "Text": "Learn from the mistakes of others. You can�t live long enough to make them all yourself.",
+        "Author": "None",
+        "Categories": [
+            "Experience",
+            "Education"
+        ],
+        "CategoriesAsString": "Experience, Education"
+    },
+    {
+        "Id": "6903b11b-93ec-4c42-96b7-7564f3a897cc",
+        "Text": "I work on a certain move constantly; then, finally, it doesn�t seem so risky to me. The move stays dangerous and looks dangerous to my foes, but not to me. Hard work has made it easy. That�s my secret. That�s why I win.",
+        "Author": "Nadia Comaneci, Olympic gymnastics champion",
+        "Categories": [
+            "Persistence",
+            "Growth"
+        ],
+        "CategoriesAsString": "Persistence, Growth"
+    },
+    {
+        "Id": "2e369fbb-421d-4de7-b081-00c5c3350400",
+        "Text": "A genius is someone who shoots at a target no one else sees and hits it.",
+        "Author": "None",
+        "Categories": [
+            "Vision"
+        ],
+        "CategoriesAsString": "Vision"
+    },
+    {
+        "Id": "a0638fd3-4b6d-4cfd-a570-4f85516d586d",
+        "Text": "When we�re tempted to think that our technology has gone about as far as it can go, we should stop and remember a certain commissioner of the U.S. Patent Office. In 1895, he proposed to Congress that the Patent Office be closed because all the great inventions have already been invented.",
+        "Author": "None",
+        "Categories": [
+            "Innovation"
+        ],
+        "CategoriesAsString": "Innovation"
+    },
+    {
+        "Id": "e8e29466-d3e6-4096-af51-96dfca8e49b3",
+        "Text": "When your work speaks for itself, don�t interrupt.",
+        "Author": "Henry J Kaiser",
+        "Categories": [
+            "Humility"
+        ],
+        "CategoriesAsString": "Humility"
+    },
+    {
+        "Id": "11d51240-c717-47cc-b1b6-a49aeb6b8566",
+        "Text": "If you pay a person less than he earns, he will soon be earning less than he�s paid.",
+        "Author": "David L Westlake",
+        "Categories": [
+            "Fairness"
+        ],
+        "CategoriesAsString": "Fairness"
+    },
+    {
+        "Id": "830356b7-cce8-4c80-bbc7-e4e8a5878b4c",
+        "Text": "We shape the clay into a pot, but it is the emptiness inside that holds whatever we want.",
+        "Author": "LAO-TZU",
+        "Categories": [
+            "Balance",
+            "Space"
+        ],
+        "CategoriesAsString": "Balance, Space"
+    },
+    {
+        "Id": "73bf9549-d66c-47cc-883d-f70cc272e8f0",
+        "Text": "I have just smashed into your car. The people who saw the accident are watching me. They think I�m writing down my name and address. I�m not.",
+        "Author": "None",
+        "Categories": [
+            "Humor"
+        ],
+        "CategoriesAsString": "Humor"
+    },
+    {
+        "Id": "5244955a-e6e9-4859-9172-d2c542297fab",
+        "Text": "To look backward for a while is to refresh the eye, to restore it, and to render it the more fit for its prime function of looking forward.",
+        "Author": "Margaret Fairless Barber",
+        "Categories": [
+            "Reflection"
+        ],
+        "CategoriesAsString": "Reflection"
+    },
+    {
+        "Id": "9d607ea5-7231-4479-949a-45c2ab620e5a",
+        "Text": "True love comes quietly, without banners or flashing lights. If you hear bells, get your ears checked.",
+        "Author": "Erich Segal",
+        "Categories": [
+            "Love"
+        ],
+        "CategoriesAsString": "Love"
+    },
+    {
+        "Id": "66170d02-5b52-4e4d-a230-ec174a3499d6",
+        "Text": "Humor is an affirmation of dignity, a declaration of man\u0027s superiority to all that befalls him.",
+        "Author": "Romain Gary",
+        "Categories": [
+            "Humor"
+        ],
+        "CategoriesAsString": "Humor"
+    },
+    {
+        "Id": "673b031f-b8ed-44e9-b97c-3618c49fa3bf",
+        "Text": "Work helps to preserve us from three great evils-�weariness, vice, and want.",
+        "Author": "Voltaire",
+        "Categories": [
+            "Work"
+        ],
+        "CategoriesAsString": "Work"
+    },
+    {
+        "Id": "6634a102-83f5-46d6-93cf-874d04912006",
+        "Text": "That silence is one of the great arts of conversation is allowed by Cicero himself, who says, there is not only an art, but even an eloquence in it.",
+        "Author": "Hannah More",
+        "Categories": [
+            "Silence"
+        ],
+        "CategoriesAsString": "Silence"
+    },
+    {
+        "Id": "abd8e000-851d-46d4-975d-5d7ea55e11fe",
+        "Text": "The success of most things depends upon knowing how long it will take to succeed.",
+        "Author": "Baron de Montesquieu",
+        "Categories": [
+            "Estimation"
+        ],
+        "CategoriesAsString": "Estimation"
+    },
+    {
+        "Id": "26aa6fe8-2167-44bd-825b-54ced3fffa5a",
+        "Text": "It is not well to see everything, to hear everything; let many causes of offense pass by us unnoticed.",
+        "Author": "Lucius Annaeus Seneca",
+        "Categories": [
+            "Anger"
+        ],
+        "CategoriesAsString": "Anger"
+    },
+    {
+        "Id": "ac2921ab-1ad0-46cd-bdf1-1779cb812c90",
+        "Text": "A talent is formed in stillness, a character in the world�s torrent.",
+        "Author": "Johann Wolfgang von Goethe",
+        "Categories": [
+            "Challenge"
+        ],
+        "CategoriesAsString": "Challenge"
+    },
+    {
+        "Id": "66535db6-8ef4-4b6a-bcd4-1cd0d16d3e64",
+        "Text": "That which we are, we are all the while teaching, not voluntarily, but involuntarily.",
+        "Author": "Ralph Waldo Emerson",
+        "Categories": [
+            "Character"
+        ],
+        "CategoriesAsString": "Character"
+    },
+    {
+        "Id": "93ea002d-f852-41e5-9c21-2e6fe6baf5d0",
+        "Text": "Restlessness is discontent, and discontent is the first necessity of progress.",
+        "Author": "Thomas Edison",
+        "Categories": [
+            "Progress"
+        ],
+        "CategoriesAsString": "Progress"
+    },
+    {
+        "Id": "15397d10-b415-403b-b958-6be0f0ae5907",
+        "Text": "The heart has arguments with which the logic of the mind is not acquainted.",
+        "Author": "Blaise Pascal",
+        "Categories": [
+            "Love"
+        ],
+        "CategoriesAsString": "Love"
+    },
+    {
+        "Id": "f49727a0-e016-4523-80fb-77444731b31f",
+        "Text": "What you praise, you increase.",
+        "Author": "Catherine Ponder",
+        "Categories": [
+            "Appreciation"
+        ],
+        "CategoriesAsString": "Appreciation"
+    },
+    {
+        "Id": "458124f4-cb7d-47db-b32c-90e058465cd0",
+        "Text": "When you were born, you cried and the world rejoiced. Live your life in such a manner that when you die the world cries and you rejoice.",
+        "Author": "Old Native American saying",
+        "Categories": [
+            "Contribution"
+        ],
+        "CategoriesAsString": "Contribution"
+    },
+    {
+        "Id": "63deca34-16e1-4edb-871c-42ee0fe5105c",
+        "Text": "Children pay little attention to their parents teachings, but reproduce their characters faithfully.",
+        "Author": "Mason Cooley",
+        "Categories": [
+            "Character"
+        ],
+        "CategoriesAsString": "Character"
+    },
+    {
+        "Id": "5ef47790-8e13-4205-af4c-688829ee2142",
+        "Text": "Look to this day, For yesterday is but a dream. And tomorrow is only a vision. But today, well lived, makes every yesterday a dream of happiness. And every tomorrow a vision of hope. Look well, therefore, to this day.",
+        "Author": "Sanskrit Proverb",
+        "Categories": [
+            "Action"
+        ],
+        "CategoriesAsString": "Action"
+    },
+    {
+        "Id": "fc46287c-a818-4807-8ae4-9345df134577",
+        "Text": "It is the mark of an educated mind to be able to entertain a thought without accepting it.",
+        "Author": "Aristotle",
+        "Categories": [
+            "Self-Control"
+        ],
+        "CategoriesAsString": "Self-Control"
+    },
+    {
+        "Id": "6b5c67e1-8482-485f-935a-b30f98c7003f",
+        "Text": "It is a capital mistake to theorize before one has data.",
+        "Author": "Arthur Conan Doyle",
+        "Categories": [
+            "Assumption"
+        ],
+        "CategoriesAsString": "Assumption"
+    },
+    {
+        "Id": "04b32a49-a3f6-43a6-8d9a-a1e581a0e65d",
+        "Text": "We are always getting ready to live, but never living.",
+        "Author": "Ralph Waldo Emerson",
+        "Categories": [
+            "Action"
+        ],
+        "CategoriesAsString": "Action"
+    },
+    {
+        "Id": "2bb539cb-2d66-48ae-8e56-47fb3acfa332",
+        "Text": "One of the most important ways to manifest integrity is to be loyal to those who are not present. In doing so, we build the trust of those who are present.",
+        "Author": "Stephen R Covey",
+        "Categories": [
+            "Integrity"
+        ],
+        "CategoriesAsString": "Integrity"
+    },
+    {
+        "Id": "f68c404e-133a-43e3-915e-bc0c2d900e9e",
+        "Text": "Everyone should carefully observe which way his heart draws him, and then choose that way with all his strength.",
+        "Author": "Hasidic Saying",
+        "Categories": [
+            "Self-Awareness"
+        ],
+        "CategoriesAsString": "Self-Awareness"
+    },
+    {
+        "Id": "d7bfb03e-032f-4067-a949-05aaa239513f",
+        "Text": "Difficulties are meant to rouse, not discourage.  The human spirit is to grow strong by conflict.",
+        "Author": "William Ellery Channing",
+        "Categories": [
+            "Challenge"
+        ],
+        "CategoriesAsString": "Challenge"
+    },
+    {
+        "Id": "3e338f5a-6e9b-4720-8247-42a7f334bb83",
+        "Text": "Readers are plentiful; thinkers are rare.",
+        "Author": "Harriet Martineau",
+        "Categories": [
+            "Education"
+        ],
+        "CategoriesAsString": "Education"
+    },
+    {
+        "Id": "f6f1790f-9e6f-4eb4-a112-fac6c5c89531",
+        "Text": "Humility is the ability to act embarrassed when you tell people how wonderful you are.",
+        "Author": "S Lee Buchansky",
+        "Categories": [
+            "Humility"
+        ],
+        "CategoriesAsString": "Humility"
+    },
+    {
+        "Id": "283a0f7d-c236-4a34-a8a6-320d9dae4627",
+        "Text": "Whenever I meet someone, I try to imagine him wearing an invisible sign that says: make me feel important.",
+        "Author": "Mary Kay Ash",
+        "Categories": [
+            "Appreciation"
+        ],
+        "CategoriesAsString": "Appreciation"
+    },
+    {
+        "Id": "3aaa662b-6c28-45dc-90b6-b705d0ac464c",
+        "Text": "Work like you don\u0027t need the money, love like you\u0027ve never been hurt, and dance like you do when nobody\u0027s watching.",
+        "Author": "None",
+        "Categories": [
+            "Courage"
+        ],
+        "CategoriesAsString": "Courage"
+    },
+    {
+        "Id": "c5c9c6a3-96f4-4fcc-a93f-1ff8d1dcfdfc",
+        "Text": "Absence is to love what wind is to fire; it extinguishes the small, it enkindles the great.",
+        "Author": "Comte de Bussy-Rabutin",
+        "Categories": [
+            "Love"
+        ],
+        "CategoriesAsString": "Love"
+    },
+    {
+        "Id": "8b46f99b-b5e2-4cb7-bb12-530984146bf2",
+        "Text": "Criticism, like rain, should be gentle enough to nourish a man\u0027s growth without destroying his roots.\"",
+        "Author": "Frank A. Clark",
+        "Categories": [
+            "Criticism"
+        ],
+        "CategoriesAsString": "Criticism"
+    },
+    {
+        "Id": "878a1636-1e34-4550-b6a5-21a87cb39d47",
+        "Text": "Happiness is not a matter of good fortune or worldly possessions. It\u0027s a mental attitude. It comes from appreciating what we have, instead of being miserable about what we don\u0027t have.",
+        "Author": "None",
+        "Categories": [
+            "Appreciation"
+        ],
+        "CategoriesAsString": "Appreciation"
+    },
+    {
+        "Id": "75dc803e-6249-44b3-a611-31a136326456",
+        "Text": "There is a healthful hardiness about real dignity that never dreads contact and communion with others, however humble.",
+        "Author": "Washington Irving",
+        "Categories": [
+            "Respect"
+        ],
+        "CategoriesAsString": "Respect"
+    },
+    {
+        "Id": "79d668a6-2817-4faf-9f27-74e4ddacd86c",
+        "Text": "Our deeds determine us as much as we determine our deeds.",
+        "Author": "George Eliot",
+        "Categories": [
+            "Self-Awareness"
+        ],
+        "CategoriesAsString": "Self-Awareness"
+    },
+    {
+        "Id": "47df24de-95dd-4e2a-a32c-58dd36aa7e30",
+        "Text": "If I turn back at least I shall not have the sun in my face. But then there will always be the long shadow of myself before me.",
+        "Author": "None",
+        "Categories": [
+            "Resignation"
+        ],
+        "CategoriesAsString": "Resignation"
+    },
+    {
+        "Id": "7aaa828e-7bca-4bb1-8b93-80c5e6e923f9",
+        "Text": "The easiest person to deceive is one\u0027s own self.",
+        "Author": "Edward Bulwer-Lytton",
+        "Categories": [
+            "Self-Awareness"
+        ],
+        "CategoriesAsString": "Self-Awareness"
+    },
+    {
+        "Id": "b5bc3be1-03b3-42e7-b155-caed7bdcf0ed",
+        "Text": "Even nectar is poison if taken in excess.",
+        "Author": "Hindu Proverb",
+        "Categories": [
+            "Excess"
+        ],
+        "CategoriesAsString": "Excess"
+    },
+    {
+        "Id": "fbe54216-7a66-4c24-856d-5cca106adb97",
+        "Text": "No man can tell whether he is rich or poor by turning to his ledger. It is the heart that makes a man rich. He is rich according to what he is, not according to what he has.",
+        "Author": "Henry Ward Beecher",
+        "Categories": [
+            "Money",
+            "Character"
+        ],
+        "CategoriesAsString": "Money, Character"
+    },
+    {
+        "Id": "7bfd15fc-d711-4db1-b753-97998930121e",
+        "Text": "Only that day dawns to which we are awake.",
+        "Author": "Henry David Thoreau",
+        "Categories": [
+            "Awareness"
+        ],
+        "CategoriesAsString": "Awareness"
+    },
+    {
+        "Id": "69e9b054-7cc8-4076-89ab-e6451e2eb932",
+        "Text": "The law of the harvest governs; we will always reap what we sow�no more, no less.",
+        "Author": "Stephen R Covey",
+        "Categories": [
+            "Discipline"
+        ],
+        "CategoriesAsString": "Discipline"
+    },
+    {
+        "Id": "82ad2373-67a8-486d-9bad-2512f004c9be",
+        "Text": "Guard well your spare moments. They are like uncut diamonds.",
+        "Author": "Ralph Waldo Emerson",
+        "Categories": [
+            "Balance"
+        ],
+        "CategoriesAsString": "Balance"
+    },
+    {
+        "Id": "58b31ec4-95b0-4c6d-8a72-beea22043545",
+        "Text": "When you are standing on a table:  Be careful... for it is a lot easier for someone to pull you down from the table than for you to help them up onto it.",
+        "Author": "None",
+        "Categories": [
+            "Leadership"
+        ],
+        "CategoriesAsString": "Leadership"
+    },
+    {
+        "Id": "057916d7-3f40-4b6e-a60c-db7ec45e2c38",
+        "Text": "The secret of getting ahead is getting started. The secret of getting started is breaking your complex overwhelming tasks into small manageable tasks, and then starting on the first one.",
+        "Author": "Mark Twain",
+        "Categories": [
+            "Action"
+        ],
+        "CategoriesAsString": "Action"
+    },
+    {
+        "Id": "92c8281e-dd6b-4931-8774-e83c44946c37",
+        "Text": "The relationships we have with the world are largely determined by the relationships we have with ourselves.",
+        "Author": "Greg Anderson",
+        "Categories": [
+            "Relationships"
+        ],
+        "CategoriesAsString": "Relationships"
+    },
+    {
+        "Id": "2a8adc34-dad3-42cb-8d3c-5338e1024c27",
+        "Text": "It�s never too late to be what you might have been.",
+        "Author": "None",
+        "Categories": [
+            "Boldness"
+        ],
+        "CategoriesAsString": "Boldness"
+    },
+    {
+        "Id": "f85d45ee-6aec-4d7d-a874-5e6dde5d87e8",
+        "Text": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+        "Author": "Aristotle",
+        "Categories": [
+            "Excellence"
+        ],
+        "CategoriesAsString": "Excellence"
+    },
+    {
+        "Id": "07b71136-5f8e-43a1-ad7b-28da57829acd",
+        "Text": "Everyone is a house with four rooms:  physical, mental, emotional, and spiritual.  Unless we go into every room every day, even if only to keep it aired, we are not a complete person. ",
+        "Author": "Rumer Godden, Writer",
+        "Categories": [
+            "Balance"
+        ],
+        "CategoriesAsString": "Balance"
+    },
+    {
+        "Id": "329a404a-834d-4fe9-946b-d12b5a98feb0",
+        "Text": "Routine is not organization, any more than paralysis is order.",
+        "Author": "Arthur Helps",
+        "Categories": [
+            "Routine"
+        ],
+        "CategoriesAsString": "Routine"
+    },
+    {
+        "Id": "4aec8d9d-6f44-44b6-8465-1475dd958269",
+        "Text": "To manage a system effectively, you might focus on the interactions of the parts rather than their behavior taken separately.",
+        "Author": "Russell L Ackoff",
+        "Categories": [
+            "Integration"
+        ],
+        "CategoriesAsString": "Integration"
+    },
+    {
+        "Id": "ac0681da-e4b3-4cfa-90dc-d5ea10c9f5e0",
+        "Text": "A good plan today is better than a perfect plan tomorrow.",
+        "Author": "George S Patton",
+        "Categories": [
+            "Action"
+        ],
+        "CategoriesAsString": "Action"
+    },
+    {
+        "Id": "7506a15c-e2f9-411d-8b0c-52d9cf00e199",
+        "Text": "Dine on danger, snack on death.",
+        "Author": "None",
+        "Categories": [
+            "Courage"
+        ],
+        "CategoriesAsString": "Courage"
+    },
+    {
+        "Id": "9de4186f-64ae-459e-bb7b-de4f58595334",
+        "Text": "Small deeds done are better than great deeds planned.",
+        "Author": "Peter Marshall",
+        "Categories": [
+            "Action"
+        ],
+        "CategoriesAsString": "Action"
+    },
+    {
+        "Id": "f708713a-a89b-4682-b716-84ab42ddaf32",
+        "Text": "Expect the best, plan for the worst, and prepare to be surprised.",
+        "Author": "Dennis Waitley",
+        "Categories": [
+            "Expectation"
+        ],
+        "CategoriesAsString": "Expectation"
+    },
+    {
+        "Id": "ee8409fc-f30c-4ffd-bd94-f8f9753b72e8",
+        "Text": "The only real voyage of discovery consists not in seeking new landscapes but in having new eyes.",
+        "Author": "Marcel Proust",
+        "Categories": [
+            "Paradigm"
+        ],
+        "CategoriesAsString": "Paradigm"
+    },
+    {
+        "Id": "7b47af71-b1bc-4a4d-a8f2-9816d7eb4e15",
+        "Text": "The greatest of all faults, I should say, is to be conscious of none.",
+        "Author": "Thomas Carlyle",
+        "Categories": [
+            "Ignorance"
+        ],
+        "CategoriesAsString": "Ignorance"
+    },
+    {
+        "Id": "ce8b2237-1173-4473-9f5e-b4c3cfcb6d71",
+        "Text": "Set your expectations high; find men and women whose integrity and values you respect; get their agreement on a course of action; and give them your ultimate trust.",
+        "Author": "John Fellows Akers",
+        "Categories": [
+            "Leadership"
+        ],
+        "CategoriesAsString": "Leadership"
+    },
+    {
+        "Id": "469a282a-8e03-48e9-b9a1-e4a35a41f398",
+        "Text": "While we may not be able to control all that happens to us, we can control what happens inside of us.",
+        "Author": "Benjamin Franklin",
+        "Categories": [
+            "Self-Control"
+        ],
+        "CategoriesAsString": "Self-Control"
+    },
+    {
+        "Id": "b3f33e07-80e0-4977-b9df-ea5a38c3e8b4",
+        "Text": "There is only one way to happiness, and that is to cease worrying about things which are beyond the power of our will.",
+        "Author": "Epicetus",
+        "Categories": [
+            "Worry"
+        ],
+        "CategoriesAsString": "Worry"
+    },
+    {
+        "Id": "5527fab4-b256-47fd-97a6-4ff5489d53e8",
+        "Text": "If you take care of the small things, the big things take care of themselves. You gain more control over your life by paying closer attention to the little things.",
+        "Author": "Emily Dickinson",
+        "Categories": [
+            "Action"
+        ],
+        "CategoriesAsString": "Action"
+    },
+    {
+        "Id": "c4005efc-0c43-46fb-a6bf-66a90302efd9",
+        "Text": "Trust your hunches. They\u0027re usually based on facts filed away just below the conscious level.",
+        "Author": "Dr. Joyce Brothers",
+        "Categories": [
+            "Subconscious"
+        ],
+        "CategoriesAsString": "Subconscious"
+    },
+    {
+        "Id": "5377ca6a-895f-49c6-9da5-38bead61d38f",
+        "Text": "Any fool can criticize, condemn, and complain, and most fools do.",
+        "Author": "Benjamin Franklin",
+        "Categories": [
+            "Criticism"
+        ],
+        "CategoriesAsString": "Criticism"
+    },
+    {
+        "Id": "8f9743d3-8eb6-4565-b328-cf2c17059fae",
+        "Text": "Those who complain most are most to be complained of.",
+        "Author": "Matthew Henry",
+        "Categories": [
+            "Complaint"
+        ],
+        "CategoriesAsString": "Complaint"
+    },
+    {
+        "Id": "032245c1-dccd-43e6-b7bd-693ef83a64c7",
+        "Text": "The secret of success is making your vocation your vacation.",
+        "Author": "Mark Twain",
+        "Categories": [
+            "Work"
+        ],
+        "CategoriesAsString": "Work"
+    },
+    {
+        "Id": "c63aed15-f308-49a2-ae40-5fb34f8d8ae8",
+        "Text": "The important thing is this: to be able at any moment to sacrifice what we are for what we could become.",
+        "Author": "Charles DuBois",
+        "Categories": [
+            "Discipline"
+        ],
+        "CategoriesAsString": "Discipline"
+    },
+    {
+        "Id": "31a3877a-34c9-4a77-b68d-d3794cadf4fe",
+        "Text": "I think the person who takes a job in order to live - that is to say, (just) for the money - has turned himself into a slave.",
+        "Author": "Joseph Campbell",
+        "Categories": [
+            "Work"
+        ],
+        "CategoriesAsString": "Work"
+    },
+    {
+        "Id": "2a5e5dda-eed8-47c5-9bea-c2c72ef02c45",
+        "Text": "If you have built castles in the air, your work need not be lost; that is where they should be. Now put the foundations under them.",
+        "Author": "Henry David Thoreau",
+        "Categories": [
+            "Vision"
+        ],
+        "CategoriesAsString": "Vision"
+    },
+    {
+        "Id": "5046f3dd-cbec-4e14-89b5-d05a1c3065f5",
+        "Text": "Our doubts are traitors and make us lose the good we oft might win, by fearing to attempt.",
+        "Author": "Shakespeare",
+        "Categories": [
+            "Fear"
+        ],
+        "CategoriesAsString": "Fear"
+    },
+    {
+        "Id": "ff4734c5-5f72-4226-9add-593e3a402f6d",
+        "Text": "A vision without a task is but a dream. A task without a vision is drudgery. A vision and a task is the hope of the world.",
+        "Author": "From a church in England, 1730",
+        "Categories": [
+            "Vision"
+        ],
+        "CategoriesAsString": "Vision"
+    },
+    {
+        "Id": "80102650-fcb2-461d-ab03-e6044e58f91e",
+        "Text": "May you live all the days of your life.",
+        "Author": "Johnathon Swift",
+        "Categories": [
+            "Life"
+        ],
+        "CategoriesAsString": "Life"
+    },
+    {
+        "Id": "f369a57a-bbdc-4b0a-a663-cc14bbbed7aa",
+        "Text": "80% of the economic value is derived from 20% of the resources.",
+        "Author": "Economic Theory developed by Vilfredo Pareto. Also known as the 80-20 rule or the Pareto Principle.",
+        "Categories": [
+            "Balance"
+        ],
+        "CategoriesAsString": "Balance"
+    },
+    {
+        "Id": "8e47f8a3-c0c5-4f0c-b337-89067d1076db",
+        "Text": "Let everything be allowed to do what it naturally does, so its nature will be satisfied.",
+        "Author": "Chuang Tzu",
+        "Categories": [
+            "Release"
+        ],
+        "CategoriesAsString": "Release"
+    },
+    {
+        "Id": "fc90b519-2c77-4b13-b7ab-b40031d3f619",
+        "Text": "I know of no more encouraging fact than the unquestionable ability of man to elevate his life by a conscious endeavor.",
+        "Author": "Henry David Thoreau",
+        "Categories": [
+            "Discipline"
+        ],
+        "CategoriesAsString": "Discipline"
+    },
+    {
+        "Id": "c617f565-423b-487f-a5d3-9fd877e0e569",
+        "Text": "Do or do not. There is no try.",
+        "Author": "Yoda",
+        "Categories": [
+            "Action"
+        ],
+        "CategoriesAsString": "Action"
+    },
+    {
+        "Id": "6634b734-6cc8-4ece-b428-43ff29893f41",
+        "Text": "Don\u0027t be afraid to go out on a limb.  That\u0027s where the fruit is.",
+        "Author": "None",
+        "Categories": [
+            "Courage"
+        ],
+        "CategoriesAsString": "Courage"
+    },
+    {
+        "Id": "cd16d7cc-bcda-4e13-b572-6d032146afba",
+        "Text": "To know that we know what we know, and that we do not know what we do not know, that is true knowledge.",
+        "Author": "Confucius",
+        "Categories": [
+            "Self-Awareness"
+        ],
+        "CategoriesAsString": "Self-Awareness"
+    },
+    {
+        "Id": "9a2e8994-e325-4cdb-962b-8fddc2f0342b",
+        "Text": "Hazy goals produce hazy results.",
+        "Author": "None",
+        "Categories": [
+            "Focus"
+        ],
+        "CategoriesAsString": "Focus"
+    },
+    {
+        "Id": "8b7588d3-21c5-4896-88d3-55f200398514",
+        "Text": "If you want to climb mountains, don\u0027t practice on mole-hills.",
+        "Author": "None",
+        "Categories": [
+            "Boldness"
+        ],
+        "CategoriesAsString": "Boldness"
+    },
+    {
+        "Id": "0e7cb091-1537-4616-89a6-9c81408c13fa",
+        "Text": "Nothing under the heaven is softer or more yielding than water, but when it attacks things hard and resistant, there is not one of them that can prevail.",
+        "Author": "The Tao-Te Ching (800-300 BC)",
+        "Categories": [
+            "Nature"
+        ],
+        "CategoriesAsString": "Nature"
+    },
+    {
+        "Id": "79d517b1-a7c4-495a-a337-98548d14b4d2",
+        "Text": "Six blind men feel different parts of an elephant and come to six very different opinions of what it is.",
+        "Author": "Hindu Fable",
+        "Categories": [
+            "Paradigm"
+        ],
+        "CategoriesAsString": "Paradigm"
+    },
+    {
+        "Id": "5723e7ac-6284-404d-88bc-075e5ea9cbab",
+        "Text": "[The mountains] had indeed come out of the plains, and into the plains had in various ways returned.",
+        "Author": "John McPhee",
+        "Categories": [
+            "Nature"
+        ],
+        "CategoriesAsString": "Nature"
+    },
+    {
+        "Id": "2bcff144-40d4-49ed-9cb1-900a767e25b3",
+        "Text": "When we ourselves die, the soil that has nourished us over a lifetime claims us back into its natural rotation, regardless of whether we have cared or not about the facts and rules of its existence.",
+        "Author": "Kubiena 1970",
+        "Categories": [
+            "Nature"
+        ],
+        "CategoriesAsString": "Nature"
+    },
+    {
+        "Id": "945243bf-a4a5-4761-a521-0bf3aa796bd2",
+        "Text": "But in the mud and scum of things, there always, always something sings.",
+        "Author": "Emerson",
+        "Categories": [
+            "Nature"
+        ],
+        "CategoriesAsString": "Nature"
+    },
+    {
+        "Id": "4f3e58d7-6d31-4f9d-a9f3-9e2f6481c79d",
+        "Text": "Nothing in the world can take the place of persistence. Talent will not; nothing is more common that unsuccessful men with talent. Genius will not; unrewarded genius is almost a proverb. Education will not; the world is full of educated derelicts.",
+        "Author": "Calvin Coolidge",
+        "Categories": [
+            "Persistence"
+        ],
+        "CategoriesAsString": "Persistence"
+    },
+    {
+        "Id": "7413aabe-0dec-4024-a21a-b758b228972f",
+        "Text": "A candle loses nothing by lighting another candle.",
+        "Author": "Father James Keller",
+        "Categories": [
+            "Sharing"
+        ],
+        "CategoriesAsString": "Sharing"
+    },
+    {
+        "Id": "41d490f9-d626-4ddb-a529-cb0d82de29b0",
+        "Text": "Love is an irresistible desire to be irresistibly desired.",
+        "Author": "Robert Frost",
+        "Categories": [
+            "Love"
+        ],
+        "CategoriesAsString": "Love"
+    },
+    {
+        "Id": "acda6ed1-895b-40e3-b251-95646c918362",
+        "Text": "Love is an unusual game. There are either two winners or none.",
+        "Author": "None",
+        "Categories": [
+            "Love"
+        ],
+        "CategoriesAsString": "Love"
+    },
+    {
+        "Id": "0d677635-1923-4449-aec2-4436c3037485",
+        "Text": "There are many more people trying to meet the right person than to become the right person.",
+        "Author": "Gloria Steinem",
+        "Categories": [
+            "Relationships"
+        ],
+        "CategoriesAsString": "Relationships"
+    },
+    {
+        "Id": "b5890020-0e1d-463d-bb6f-b554076f33b6",
+        "Text": "When I got cut from the varsity team as a sophomore in high school, I learned something. I knew I never wanted to feel that bad again. I never wanted to have that taste in my mouth, that hole in my stomach.",
+        "Author": "Michael Jordan",
+        "Categories": [
+            "Hope"
+        ],
+        "CategoriesAsString": "Hope"
+    },
+    {
+        "Id": "055e7d87-e88c-4cf3-8e0d-b7593c907816",
+        "Text": "Forgive others and life itself will forgive you many wrongs you have done.",
+        "Author": "None",
+        "Categories": [
+            "Forgiveness"
+        ],
+        "CategoriesAsString": "Forgiveness"
+    },
+    {
+        "Id": "6b610c73-c40c-4eaa-9167-b41a5fd2fd67",
+        "Text": "If in the last few years you haven\u0027t discarded a major opinion or acquired a new one, check your pulse-you may be dead.",
+        "Author": "Gelett Burgess",
+        "Categories": [
+            "Open-mindedness"
+        ],
+        "CategoriesAsString": "Open-mindedness"
+    },
+    {
+        "Id": "6ecac04d-11b4-4816-8e88-d76daad0508d",
+        "Text": "That which we obtain too easily, we esteem too lightly. It is dearness only which gives everything its value. Heaven knows how to put a proper price on its goods.",
+        "Author": "Thomas Paine",
+        "Categories": [
+            "Appreciation"
+        ],
+        "CategoriesAsString": "Appreciation"
+    },
+    {
+        "Id": "98316efd-c3f8-4a83-9045-728e5416d947",
+        "Text": "Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it\u0027s the only thing that ever has.",
+        "Author": "Margaret Mead",
+        "Categories": [
+            "Teamwork"
+        ],
+        "CategoriesAsString": "Teamwork"
+    },
+    {
+        "Id": "2f2214af-a440-4bb7-bddd-18a6d7b0fe17",
+        "Text": "The only thing necessary for evil to triumph is for good men to do nothing.",
+        "Author": "Edmund Burke",
+        "Categories": [
+            "Action"
+        ],
+        "CategoriesAsString": "Action"
+    },
+    {
+        "Id": "bfaa37ca-5474-46d9-944d-9f692351a3cf",
+        "Text": "If you have made mistakes...there is always another chance for you...you may have a fresh start any moment you choose, for this thing we call \u0027failure\u0027 is not the falling down, but the staying down.",
+        "Author": "Mary Pickford",
+        "Categories": [
+            "Persistence"
+        ],
+        "CategoriesAsString": "Persistence"
+    },
+    {
+        "Id": "9dfe2b06-3b95-4c43-a16e-5f64f2df40a4",
+        "Text": "I asked God for strength... He gave me difficulties to make me strong... God gave me nothing I wanted... He gave me everything I needed.",
+        "Author": "None",
+        "Categories": [
+            "Challenge"
+        ],
+        "CategoriesAsString": "Challenge"
+    },
+    {
+        "Id": "00811e3d-3b6e-497f-a498-f7c81b931ffb",
+        "Text": "Keep in mind that you are always saying no to something. If it isn\u0027t to the apparent, urgent things in your life, it is probably to the more fundamental, highly important things. Even when the urgent is good, the good can keep you from your best.",
+        "Author": "Stephen R. Covey",
+        "Categories": [
+            "Choice"
+        ],
+        "CategoriesAsString": "Choice"
+    },
+    {
+        "Id": "b1a336e3-1136-42b9-a6d7-ff422fde6453",
+        "Text": "You always reap what you sow; there is no shortcut.",
+        "Author": "Stephen R. Covey",
+        "Categories": [
+            "Quick-Fix"
+        ],
+        "CategoriesAsString": "Quick-Fix"
+    },
+    {
+        "Id": "65aceb68-ed01-4e50-a4e9-92b0b792d414",
+        "Text": "Spend time with your children now, one on one. Listen to them; understand them. Look through their eyes at your home, at school life, at the challenges and the problems they\u0027re facing. Build the Emotional Bank Account.",
+        "Author": "Stephen R. Covey",
+        "Categories": [
+            "Listening"
+        ],
+        "CategoriesAsString": "Listening"
+    },
+    {
+        "Id": "0161b215-2fad-47ab-89e9-07726dab1d1e",
+        "Text": "...listen, without judging or preaching or reading your own autobiography in to what someone says. Just listen and seek to understand. Let the person feel your concern for him or her, your acceptance of him or her as a person.",
+        "Author": "Stephen R. Covey",
+        "Categories": [
+            "Listening"
+        ],
+        "CategoriesAsString": "Listening"
+    },
+    {
+        "Id": "0749e15d-e333-4afd-9564-9e55df33ca4b",
+        "Text": "Discipline is the bridge between goals and accomplishment.",
+        "Author": "None",
+        "Categories": [
+            "Discipline"
+        ],
+        "CategoriesAsString": "Discipline"
+    },
+    {
+        "Id": "e44b91d9-23ff-4c9c-910a-953e18e85c8a",
+        "Text": "If there is a child on the South Side of Chicago who can\u0027t read, that matters to me even if it\u0027s not my child.",
+        "Author": "Barack Obama",
+        "Categories": [
+            "Connection"
+        ],
+        "CategoriesAsString": "Connection"
+    },
+    {
+        "Id": "473b0ee2-3b3e-4e1d-957d-f897385c3c09",
+        "Text": "All non-trivial abstractions, to some degree, are leaky.",
+        "Author": "The Law of Leaky Abstractions - Joel Spolsky",
+        "Categories": [
+            "Abstraction"
+        ],
+        "CategoriesAsString": "Abstraction"
+    },
+    {
+        "Id": "23e606b5-44e6-4294-8d4b-3221988b8bce",
+        "Text": "Owning a hammer does not make one a carpenter.",
+        "Author": "None",
+        "Categories": [
+            "Education"
+        ],
+        "CategoriesAsString": "Education"
+    },
+    {
+        "Id": "91d0d187-20c6-46fa-bc15-ec7a3f6e331e",
+        "Text": "There are a thousand hacking at the branches of evil to one who is striking at the root.",
+        "Author": "Henry David Thoreau",
+        "Categories": [
+            "Vision"
+        ],
+        "CategoriesAsString": "Vision"
+    },
+    {
+        "Id": "54615158-d532-45f5-9ac3-66269763d809",
+        "Text": "Only those who will risk going too far can possibly find out how far one can go.",
+        "Author": "T.S. Eliot",
+        "Categories": [
+            "Risk"
+        ],
+        "CategoriesAsString": "Risk"
+    },
+    {
+        "Id": "dfd6334c-b852-45cb-ab28-4ff9a75c1f4a",
+        "Text": "A good traveler has no fixed plans and is not intent on arriving.",
+        "Author": "LAO-TZU",
+        "Categories": [
+            "Travel"
+        ],
+        "CategoriesAsString": "Travel"
+    }
+]

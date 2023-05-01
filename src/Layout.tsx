@@ -18,7 +18,7 @@ import Typography from '@mui/material/Typography';
 import { useNavigate } from "react-router-dom";
 import { useTheme } from '@mui/material/styles';
 
-const pages = ['Home', 'About'];
+const pages = ['Home', 'About']; 
 let loggedInSettings = ['Profile', 'Logout'];
 let loggedOutSettings = ['Login'];
 
