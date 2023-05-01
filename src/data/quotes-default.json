@@ -1,7 +1,7 @@
 [
     {
         "Id": "205db262-5273-45f3-9ae2-b02a649850af",
-        "Text": "A smoooth sea never made a skilled mariner.",
+        "Text": "A smooth sea never made a skilled mariner.",
         "Author": "English Proverb",
         "Categories": [
             "Challenge"
@@ -193,20 +193,18 @@
         "Text": "When a man does not know what harbor he is making for, no wind is the right wind.",
         "Author": "Seneca",
         "Categories": [
-            "Purpose",
-            "Direction"
+            "Purpose"
         ],
-        "CategoriesAsString": "Purpose, Direction"
+        "CategoriesAsString": "Purpose"
     },
     {
         "Id": "6dde7da5-e7e9-4c24-8b8f-1bf545ad4ded",
         "Text": "True heroism is remarkably sober, very undramatic. It is not the urge to surpass all others at whatever cost, but the urge to serve others at whatever cost.",
         "Author": "Arthur Ashe",
         "Categories": [
-            "Character",
-            "Service"
+            "Character"
         ],
-        "CategoriesAsString": "Character, Service"
+        "CategoriesAsString": "Character"
     },
     {
         "Id": "c750e131-4bf5-4764-ad00-5e513299f81d",
@@ -447,9 +445,9 @@
         "Text": "Never leave fun to find fun.",
         "Author": "None",
         "Categories": [
-            ""
+            "Experience"
         ],
-        "CategoriesAsString": ""
+        "CategoriesAsString": "Experience"
     },
     {
         "Id": "95b966c9-4b01-4d5e-87f0-0490afefa6fd",
@@ -564,9 +562,9 @@
         "Text": "Great organizations remember the four \u0027F\u0027s: Focused, Fast, Friendly and Flexible.",
         "Author": "Stephen R. Covey",
         "Categories": [
-            ""
+            "Purpose"
         ],
-        "CategoriesAsString": ""
+        "CategoriesAsString": "Purpose"
     },
     {
         "Id": "0cfd7866-1df3-4e50-8a1a-0aefd7d12628",
@@ -609,9 +607,9 @@
         "Text": "May the road rise up to meet you. May the wind be at your back. May your mission in life feed your passion like no other.",
         "Author": "Unknown",
         "Categories": [
-            ""
+            "Hope"
         ],
-        "CategoriesAsString": ""
+        "CategoriesAsString": "Hope"
     },
     {
         "Id": "81034cd3-37e2-4324-9838-f210a577526d",
@@ -717,9 +715,9 @@
         "Text": "To live is so startling it leaves little time for anything else.",
         "Author": "Emily Dickinson",
         "Categories": [
-            ""
+            "Time"
         ],
-        "CategoriesAsString": ""
+        "CategoriesAsString": "Time"
     },
     {
         "Id": "69c9409b-2b77-4889-be22-61af2d5d4ae3",
@@ -771,9 +769,9 @@
         "Text": "If I have seen farther than others, it is because I was standing on the shoulders of giants.",
         "Author": "Isaac Newton",
         "Categories": [
-            ""
+            "Wisdom"
         ],
-        "CategoriesAsString": ""
+        "CategoriesAsString": "Wisdom"
     },
     {
         "Id": "346b59b4-7223-4a7a-a8be-d08c166db1a3",
@@ -852,9 +850,9 @@
         "Text": "It is something to be able to paint a particular picture, or to carve a statue, and so to make a few objects beautiful; but is far more glorious to carve and paint the very atmosphere and medium through which we look. ",
         "Author": "Henry David Thoreau",
         "Categories": [
-            ""
+            "Purpose"
         ],
-        "CategoriesAsString": ""
+        "CategoriesAsString": "Purpose"
     },
     {
         "Id": "418cfd5a-f24e-4e96-9985-b6b26aa34406",
@@ -879,10 +877,9 @@
         "Text": "Life engenders life. Energy creates energy. It is by spending oneself that one becomes rich.",
         "Author": "Sarah Bernhardt",
         "Categories": [
-            "Service",
             "Action"
         ],
-        "CategoriesAsString": "Service, Action"
+        "CategoriesAsString": "Action"
     },
     {
         "Id": "8d2391c3-0502-4e92-ad4e-bb9bb4811390",
@@ -961,20 +958,9 @@
         "Text": "In the midst of winter I finally learned that there was in me an invincible summer.",
         "Author": "Albert Camus",
         "Categories": [
-            "Inner Strength",
-            "Self-Awareness",
-            "Seasons"
+            "Inner Strength"
         ],
-        "CategoriesAsString": "Inner Strength, Self-Awareness, Seasons"
-    },
-    {
-        "Id": "c102b0af-9656-441c-8235-8ad23e264df0",
-        "Text": "I don\u0027t know the key to success, but the key to failure is trying to please everybody.",
-        "Author": "Bill Cosby",
-        "Categories": [
-            "Success"
-        ],
-        "CategoriesAsString": "Success"
+        "CategoriesAsString": "Inner Strength"
     },
     {
         "Id": "66beff0b-7559-48b9-936a-e7fbf38318dd",
@@ -999,30 +985,27 @@
         "Text": "If you want to be a teacher, you have to fall in love each day.",
         "Author": "Louis Schmier",
         "Categories": [
-            "Education",
-            "Love"
+            "Education"
         ],
-        "CategoriesAsString": "Education, Love"
+        "CategoriesAsString": "Education"
     },
     {
         "Id": "35d75fd4-2d6d-4ad4-826b-1fa601479c26",
         "Text": "When you\u0027re tasting, just taste.  When you teach, just teach.",
         "Author": "Louis Schmier",
         "Categories": [
-            "Focus",
-            "Appreciation"
+            "Focus"
         ],
-        "CategoriesAsString": "Focus, Appreciation"
+        "CategoriesAsString": "Focus"
     },
     {
         "Id": "17aa72d9-e512-4caf-832e-31d06ba67c8f",
         "Text": "If you wait until you can do everything for everybody, instead of something for somebody, you\u0027ll end up not doing anything for anybody.",
         "Author": "Malcolm Bane",
         "Categories": [
-            "Action",
-            "Imperfection"
+            "Action"
         ],
-        "CategoriesAsString": "Action, Imperfection"
+        "CategoriesAsString": "Action"
     },
     {
         "Id": "ca822898-7914-4f5b-b07d-69076b443fe6",
@@ -1038,10 +1021,9 @@
         "Text": "Nonviolence is not to be used ever as the shield of the coward. It is the weapon of the brave.",
         "Author": "Gandhi",
         "Categories": [
-            "Nonviolence",
             "Bravery"
         ],
-        "CategoriesAsString": "Nonviolence, Bravery"
+        "CategoriesAsString": "Bravery"
     },
     {
         "Id": "f09c49e8-e634-44c7-8d01-2c19d92b2378",
@@ -1093,9 +1075,9 @@
         "Text": "Overlook what doesn�t matter.",
         "Author": "None",
         "Categories": [
-            ""
+            "Wisdom"
         ],
-        "CategoriesAsString": ""
+        "CategoriesAsString": "Wisdom"
     },
     {
         "Id": "29c032c5-1646-4b25-a7f4-ec796b7588cb",
@@ -1111,10 +1093,9 @@
         "Text": "No pessimist ever discovered the secrets of stars or sailed to an uncharted land or opened a new heaven to the human spirit.",
         "Author": "Helen Keller",
         "Categories": [
-            "Optimism",
-            "Pessimism"
+            "Optimism"
         ],
-        "CategoriesAsString": "Optimism, Pessimism"
+        "CategoriesAsString": "Optimism"
     },
     {
         "Id": "d4acd03d-b308-4057-890c-2e5ae341c459",
@@ -1139,10 +1120,9 @@
         "Text": "Listen with your eyes, heart and mind as well as with your ears.",
         "Author": "None",
         "Categories": [
-            "Listening",
-            "Awareness"
+            "Listening"
         ],
-        "CategoriesAsString": "Listening, Awareness"
+        "CategoriesAsString": "Listening"
     },
     {
         "Id": "53a811d2-5dd1-46ec-aa7b-b42d6fb95f22",
@@ -1158,30 +1138,27 @@
         "Text": "Between stimulus and response there is a space.",
         "Author": "None",
         "Categories": [
-            "Choice",
             "Self-Control"
         ],
-        "CategoriesAsString": "Choice, Self-Control"
+        "CategoriesAsString": "Self-Control"
     },
     {
         "Id": "82b6eafa-6a9e-4364-8868-a52e70dd3971",
         "Text": "If you are not working on your ideas each day, you\u0027re working on someone else\u0027s.",
         "Author": "Marjorie Blanchard",
         "Categories": [
-            "Purpose",
-            "Balance"
+            "Purpose"
         ],
-        "CategoriesAsString": "Purpose, Balance"
+        "CategoriesAsString": "Purpose"
     },
     {
         "Id": "5a7d4e71-943b-4e70-b2fe-333933d5b6a7",
         "Text": "Shared joy is double joy and shared sorrow is half sorrow.",
         "Author": "Swedish Proverb",
         "Categories": [
-            "Interdependence",
             "Sharing"
         ],
-        "CategoriesAsString": "Interdependence, Sharing"
+        "CategoriesAsString": "Sharing"
     },
     {
         "Id": "122edcc8-36cc-463a-85bd-adab693d058d",
@@ -1215,19 +1192,18 @@
         "Text": "All the world�s a stage and all the men and women merely players. They have their exits and their entrances; And one man in his time plays many parts...",
         "Author": "As You Like It, Act II, Scene 7, Shakespeare",
         "Categories": [
-            "Life",
-            "Transience"
+            "Life"
         ],
-        "CategoriesAsString": "Life, Transience"
+        "CategoriesAsString": "Life"
     },
     {
         "Id": "8c05301a-b4ef-4cf6-8dd0-db14f9cd5b2e",
         "Text": "What is life? It is the flash of a firefly in the night. It is the breath of a buffalo in the winter time.  It is the little shadow which runs across the grass and loses itself in the sunset.",
         "Author": "None",
         "Categories": [
-            "Transience"
+            "Life"
         ],
-        "CategoriesAsString": "Transience"
+        "CategoriesAsString": "Life"
     },
     {
         "Id": "340d11e5-0043-4fa2-9bd7-26e348e1781b",
@@ -1270,20 +1246,18 @@
         "Text": "Two roads diverged in a wood and I -- I took the one less traveled by, and that has made all the difference.",
         "Author": "Robert Frost",
         "Categories": [
-            "Bravery",
-            "Boldness"
+            "Bravery"
         ],
-        "CategoriesAsString": "Bravery, Boldness"
+        "CategoriesAsString": "Bravery"
     },
     {
         "Id": "f5f0f37f-4e7f-4616-8ab2-9514bfdddb6f",
         "Text": "Few of us can do great things but all of us can do small things with great love.",
         "Author": "Mother Teresa",
         "Categories": [
-            "Love",
             "Service"
         ],
-        "CategoriesAsString": "Love, Service"
+        "CategoriesAsString": "Service"
     },
     {
         "Id": "1282c0c6-8aaa-4fa9-9981-d435b9bee002",
@@ -1317,10 +1291,9 @@
         "Text": "The greatest risk is the risk of riskless living.",
         "Author": "Stephen R Covey",
         "Categories": [
-            "Risk",
             "Bravery"
         ],
-        "CategoriesAsString": "Risk, Bravery"
+        "CategoriesAsString": "Bravery"
     },
     {
         "Id": "952076e7-9f84-4023-b8f6-d02afb0fc995",
@@ -1354,30 +1327,27 @@
         "Text": "If someone betrays you once, it is his fault. If he betrays you twice, it is your fault.",
         "Author": "None",
         "Categories": [
-            "Trust",
             "Responsibility"
         ],
-        "CategoriesAsString": "Trust, Responsibility"
+        "CategoriesAsString": "Responsibility"
     },
     {
         "Id": "4edad5db-342d-4dc2-aec1-d4a85381567d",
         "Text": "Learn from the mistakes of others. You can�t live long enough to make them all yourself.",
         "Author": "None",
         "Categories": [
-            "Experience",
             "Education"
         ],
-        "CategoriesAsString": "Experience, Education"
+        "CategoriesAsString": "Education"
     },
     {
         "Id": "6903b11b-93ec-4c42-96b7-7564f3a897cc",
         "Text": "I work on a certain move constantly; then, finally, it doesn�t seem so risky to me. The move stays dangerous and looks dangerous to my foes, but not to me. Hard work has made it easy. That�s my secret. That�s why I win.",
         "Author": "Nadia Comaneci, Olympic gymnastics champion",
         "Categories": [
-            "Persistence",
-            "Growth"
+            "Persistence"
         ],
-        "CategoriesAsString": "Persistence, Growth"
+        "CategoriesAsString": "Persistence"
     },
     {
         "Id": "2e369fbb-421d-4de7-b081-00c5c3350400",
@@ -1420,10 +1390,9 @@
         "Text": "We shape the clay into a pot, but it is the emptiness inside that holds whatever we want.",
         "Author": "LAO-TZU",
         "Categories": [
-            "Balance",
-            "Space"
+            "Balance"
         ],
-        "CategoriesAsString": "Balance, Space"
+        "CategoriesAsString": "Balance"
     },
     {
         "Id": "73bf9549-d66c-47cc-883d-f70cc272e8f0",
@@ -1736,10 +1705,9 @@
         "Text": "No man can tell whether he is rich or poor by turning to his ledger. It is the heart that makes a man rich. He is rich according to what he is, not according to what he has.",
         "Author": "Henry Ward Beecher",
         "Categories": [
-            "Money",
-            "Character"
+            "Money"
         ],
-        "CategoriesAsString": "Money, Character"
+        "CategoriesAsString": "Money"
     },
     {
         "Id": "7bfd15fc-d711-4db1-b753-97998930121e",

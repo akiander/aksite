@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "@aws-amplify/ui-react/styles.css";
-import { API } from "aws-amplify";
+import { API, graphqlOperation } from "aws-amplify";
 import {
   Button,
   Flex,
@@ -15,6 +15,7 @@ import {
   createQuote as createQuoteMutation,
   deleteQuote as deleteQuoteMutation,
 } from "../graphql/mutations";
+import defaultQuotes from '../data/quotes-default.json';
 import { useAuthenticator } from '@aws-amplify/ui-react';
 
 interface IQuote {
@@ -32,14 +33,22 @@ interface IEvent {
 
 const Quotes = () => {
   const { user, signOut } = useAuthenticator((context) => [context.user]);
-  const [quotes, setQuotes] = useState([]);
+  const [quotes, setQuotes] = useState(Array<IQuote>);
 
   useEffect(() => {
     fetchQuotes();
   }, []);
 
   async function fetchQuotes() {
-    const apiData: any = await API.graphql({ query: listQuotes });
+    const apiData: any = await API.graphql({ query: listQuotes, 
+      variables: { limit: 500, 
+        filter: {
+          userId: {
+            eq: user?.username
+          }
+        }
+      } 
+    });
     const quotesFromAPI = apiData.data.listQuotes.items;
     setQuotes(quotesFromAPI);
   }
@@ -59,6 +68,32 @@ const Quotes = () => {
     });
     fetchQuotes();
     event.target.reset();
+  }
+
+  async function createDefaultQuotes() {
+
+    // var defaultQuoteList: Array<any> = JSON.parse(defaultQuotes);
+
+    defaultQuotes.forEach(async defaultQuote => {
+      if (quotes.map(q => q.quote).indexOf(defaultQuote.Text) > -1) {
+        console.log('Ignoring:', defaultQuote.Text)
+      }
+      else {
+        const data = {
+          quote: defaultQuote.Text,
+          userId: user?.username || '',
+          author: defaultQuote.Author,
+          category: defaultQuote.CategoriesAsString,
+        };
+        console.log('inserting:', data)
+        await API.graphql({
+          query: createQuoteMutation,
+          variables: { input: data },
+        });
+      }
+    });
+
+    fetchQuotes();
   }
 
   async function deleteQuote({ id }: IQuote) {
@@ -101,6 +136,9 @@ const Quotes = () => {
           />
           <Button type="submit" variation="primary">
             Create Quote
+          </Button>
+          <Button onClick={createDefaultQuotes}>
+            Load Initial Quotes
           </Button>
         </Flex>
       </View>
