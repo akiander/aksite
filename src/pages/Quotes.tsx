@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "@aws-amplify/ui-react/styles.css";
-import { API, graphqlOperation } from "aws-amplify";
+import { API } from "aws-amplify";
 import {
   Button,
   Flex,
@@ -15,6 +15,7 @@ import {
   createQuote as createQuoteMutation,
   deleteQuote as deleteQuoteMutation,
 } from "../graphql/mutations";
+import { GRAPHQL_AUTH_MODE } from '@aws-amplify/api-graphql';
 import defaultQuotes from '../data/quotes-default.json';
 import { useAuthenticator } from '@aws-amplify/ui-react';
 
@@ -47,7 +48,8 @@ const Quotes = () => {
             eq: user?.username
           }
         }
-      } 
+      },
+      // authMode: GRAPHQL_AUTH_MODE.AWS_IAM
     });
     const quotesFromAPI = apiData.data.listQuotes.items;
     setQuotes(quotesFromAPI);
@@ -65,6 +67,7 @@ const Quotes = () => {
     await API.graphql({
       query: createQuoteMutation,
       variables: { input: data },
+      authMode: GRAPHQL_AUTH_MODE.AWS_IAM
     });
     fetchQuotes();
     event.target.reset();
@@ -89,6 +92,7 @@ const Quotes = () => {
         await API.graphql({
           query: createQuoteMutation,
           variables: { input: data },
+          authMode: GRAPHQL_AUTH_MODE.AWS_IAM
         });
       }
     });
@@ -102,6 +106,7 @@ const Quotes = () => {
     await API.graphql({
       query: deleteQuoteMutation,
       variables: { input: { id } },
+      authMode: GRAPHQL_AUTH_MODE.AWS_IAM
     });
   }
 
